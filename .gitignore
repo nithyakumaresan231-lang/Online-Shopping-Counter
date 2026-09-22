@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment/secrets
+.env
+
+# Logs
+*.log
+
+# Spark output/checkpoints
+checkpoint/
+checkpoints/
+
+# Generated output
+output/*
+!output/README.md
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

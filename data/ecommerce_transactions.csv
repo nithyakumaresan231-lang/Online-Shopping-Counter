@@ -1,0 +1,1001 @@
+order_id,timestamp,customer_id,product_id,product_name,category,quantity,unit_price,discount_percent,city,payment_method,order_status
+ORD1001,2026-09-21 10:00:09,C1085,P027,Notebook,Books,2,120,20,Erode,UPI,Returned
+ORD1002,2026-09-21 10:00:13,C1137,P021,Cricket Bat,Sports,2,2199,30,Salem,Credit Card,Completed
+ORD1003,2026-09-21 10:00:30,C1314,P014,Water Bottle,Home & Kitchen,2,399,15,Chennai,Debit Card,Completed
+ORD1004,2026-09-21 10:00:42,C1223,P013,Cookware Set,Home & Kitchen,1,2799,50,Salem,UPI,Completed
+ORD1005,2026-09-21 10:00:45,C1148,P039,Power Bank,Accessories,1,1499,0,Madurai,Credit Card,Completed
+ORD1006,2026-09-21 10:02:27,C1153,P026,Novel,Books,1,349,20,Trichy,Credit Card,Completed
+ORD1007,2026-09-21 10:02:29,C1036,P002,Smartphone,Electronics,1,24999,40,Chennai,Cash on Delivery,Completed
+ORD1008,2026-09-21 10:03:55,C1158,P012,Mixer Grinder,Home & Kitchen,1,3299,10,Madurai,Credit Card,Completed
+ORD1009,2026-09-21 10:04:03,C1105,P012,Mixer Grinder,Home & Kitchen,3,3299,0,Bengaluru,Debit Card,Completed
+ORD1010,2026-09-21 10:04:09,C1343,P007,T-Shirt,Fashion,1,599,0,Chennai,Credit Card,Returned
+ORD1011,2026-09-21 10:06:57,C1139,P009,Shoes,Fashion,1,2499,15,Coimbatore,UPI,Completed
+ORD1012,2026-09-21 10:08:17,C1204,P007,T-Shirt,Fashion,1,599,20,Chennai,Debit Card,Completed
+ORD1013,2026-09-21 10:08:41,C1034,P003,Tablet,Electronics,3,18999,0,Coimbatore,Credit Card,Completed
+ORD1014,2026-09-21 10:08:48,C1183,P036,Mouse,Accessories,2,499,10,Trichy,Credit Card,Completed
+ORD1015,2026-09-21 10:09:32,C1213,P036,Mouse,Accessories,3,499,20,Chennai,Credit Card,Completed
+ORD1016,2026-09-21 10:10:18,C1042,P005,Smartwatch,Electronics,1,3999,0,Salem,Credit Card,Completed
+ORD1017,2026-09-21 10:10:24,C1132,P006,Bluetooth Speaker,Electronics,1,2499,15,Salem,Debit Card,Returned
+ORD1018,2026-09-21 10:10:35,C1170,P025,Badminton Racket,Sports,1,1099,5,Madurai,UPI,Completed
+ORD1019,2026-09-21 10:10:47,C1048,P002,Smartphone,Electronics,3,24999,40,Madurai,Credit Card,Completed
+ORD1020,2026-09-21 10:11:33,C1294,P016,Bedsheet Set,Home & Kitchen,1,899,0,Chennai,Debit Card,Completed
+ORD1021,2026-09-21 10:11:48,C1186,P011,Jacket,Fashion,1,2999,10,Tirunelveli,Debit Card,Completed
+ORD1022,2026-09-21 10:11:50,C1041,P004,Wireless Headphones,Electronics,3,1499,25,Coimbatore,Cash on Delivery,Completed
+ORD1023,2026-09-21 10:12:55,C1189,P030,Rice Bag 5kg,Grocery,5,450,0,Bengaluru,Debit Card,Completed
+ORD1024,2026-09-21 10:12:57,C1156,P040,USB Cable,Accessories,1,199,25,Coimbatore,Net Banking,Completed
+ORD1025,2026-09-21 10:13:30,C1279,P009,Shoes,Fashion,2,2499,5,Tirunelveli,Debit Card,Completed
+ORD1026,2026-09-21 10:13:39,C1073,P006,Bluetooth Speaker,Electronics,1,2499,0,Coimbatore,UPI,Completed
+ORD1027,2026-09-21 10:15:05,C1246,P012,Mixer Grinder,Home & Kitchen,1,3299,0,Bengaluru,Net Banking,Completed
+ORD1028,2026-09-21 10:15:11,C1338,P004,Wireless Headphones,Electronics,3,1499,30,Mumbai,Cash on Delivery,Completed
+ORD1029,2026-09-21 10:16:05,C1087,P036,Mouse,Accessories,2,499,25,Erode,Debit Card,Completed
+ORD1030,2026-09-21 10:16:59,C1095,P026,Novel,Books,1,349,10,Salem,Cash on Delivery,Completed
+ORD1031,2026-09-21 10:17:34,C1098,P023,Football,Sports,4,799,5,Hyderabad,UPI,Completed
+ORD1032,2026-09-21 10:21:30,C1256,P033,Coffee Powder 200g,Grocery,2,340,10,Salem,UPI,Completed
+ORD1033,2026-09-21 10:21:57,C1075,P023,Football,Sports,1,799,0,Chennai,Cash on Delivery,Completed
+ORD1034,2026-09-21 10:23:15,C1197,P026,Novel,Books,1,349,5,Salem,UPI,Completed
+ORD1035,2026-09-21 10:23:21,C1160,P033,Coffee Powder 200g,Grocery,1,340,25,Madurai,UPI,Returned
+ORD1036,2026-09-21 10:23:57,C1238,P007,T-Shirt,Fashion,1,599,15,Chennai,Cash on Delivery,Completed
+ORD1037,2026-09-21 10:24:33,C1087,P028,Self-Help Book,Books,1,299,30,Chennai,UPI,Completed
+ORD1038,2026-09-21 10:24:44,C1082,P029,Programming Book,Books,2,799,20,Chennai,Credit Card,Completed
+ORD1039,2026-09-21 10:26:38,C1234,P009,Shoes,Fashion,1,2499,15,Bengaluru,Net Banking,Completed
+ORD1040,2026-09-21 10:26:42,C1024,P005,Smartwatch,Electronics,1,3999,20,Chennai,UPI,Cancelled
+ORD1041,2026-09-21 10:27:37,C1268,P005,Smartwatch,Electronics,3,3999,0,Mumbai,UPI,Completed
+ORD1042,2026-09-21 10:27:53,C1224,P002,Smartphone,Electronics,1,24999,20,Trichy,UPI,Completed
+ORD1043,2026-09-21 10:27:59,C1300,P029,Programming Book,Books,1,799,0,Erode,Credit Card,Completed
+ORD1044,2026-09-21 10:28:06,C1112,P039,Power Bank,Accessories,1,1499,0,Chennai,Credit Card,Completed
+ORD1045,2026-09-21 10:30:28,C1271,P027,Notebook,Books,2,120,25,Salem,UPI,Completed
+ORD1046,2026-09-21 10:30:56,C1262,P023,Football,Sports,1,799,0,Bengaluru,Net Banking,Completed
+ORD1047,2026-09-21 10:31:35,C1172,P004,Wireless Headphones,Electronics,2,1499,10,Mumbai,Net Banking,Cancelled
+ORD1048,2026-09-21 10:32:03,C1300,P005,Smartwatch,Electronics,2,3999,5,Salem,Debit Card,Returned
+ORD1049,2026-09-21 10:32:21,C1006,P032,Tea Powder 500g,Grocery,1,260,0,Chennai,UPI,Completed
+ORD1050,2026-09-21 10:34:23,C1215,P022,Yoga Mat,Sports,2,699,5,Tirunelveli,UPI,Completed
+ORD1051,2026-09-21 10:36:03,C1097,P027,Notebook,Books,1,120,10,Chennai,Cash on Delivery,Completed
+ORD1052,2026-09-21 10:36:29,C1219,P015,Electric Kettle,Home & Kitchen,3,1199,15,Chennai,Debit Card,Completed
+ORD1053,2026-09-21 10:36:47,C1020,P036,Mouse,Accessories,1,499,5,Madurai,Credit Card,Completed
+ORD1054,2026-09-21 10:37:52,C1258,P031,Cooking Oil 1L,Grocery,1,180,20,Tirunelveli,UPI,Returned
+ORD1055,2026-09-21 10:38:03,C1272,P023,Football,Sports,2,799,0,Chennai,Debit Card,Completed
+ORD1056,2026-09-21 10:38:06,C1268,P036,Mouse,Accessories,1,499,25,Chennai,UPI,Completed
+ORD1057,2026-09-21 10:39:13,C1025,P026,Novel,Books,1,349,5,Madurai,Credit Card,Completed
+ORD1058,2026-09-21 10:39:43,C1035,P010,Kurta,Fashion,2,999,20,Chennai,Credit Card,Completed
+ORD1059,2026-09-21 10:40:26,C1085,P036,Mouse,Accessories,1,499,5,Chennai,Cash on Delivery,Completed
+ORD1060,2026-09-21 10:40:33,C1320,P025,Badminton Racket,Sports,2,1099,5,Coimbatore,UPI,Completed
+ORD1061,2026-09-21 10:41:10,C1026,P011,Jacket,Fashion,1,2999,10,Hyderabad,UPI,Completed
+ORD1062,2026-09-21 10:42:55,C1336,P039,Power Bank,Accessories,1,1499,10,Chennai,Cash on Delivery,Completed
+ORD1063,2026-09-21 10:43:41,C1004,P025,Badminton Racket,Sports,1,1099,10,Coimbatore,Debit Card,Completed
+ORD1064,2026-09-21 10:44:01,C1171,P027,Notebook,Books,3,120,0,Hyderabad,Debit Card,Completed
+ORD1065,2026-09-21 10:44:19,C1141,P002,Smartphone,Electronics,1,24999,5,Bengaluru,Cash on Delivery,Returned
+ORD1066,2026-09-21 10:44:43,C1226,P001,Laptop,Electronics,3,55000,20,Chennai,Credit Card,Completed
+ORD1067,2026-09-21 10:44:45,C1021,P022,Yoga Mat,Sports,5,699,20,Chennai,Cash on Delivery,Cancelled
+ORD1068,2026-09-21 10:44:49,C1245,P023,Football,Sports,1,799,50,Chennai,UPI,Completed
+ORD1069,2026-09-21 10:44:50,C1025,P034,Snack Combo Pack,Grocery,2,199,5,Mumbai,UPI,Completed
+ORD1070,2026-09-21 10:44:52,C1277,P012,Mixer Grinder,Home & Kitchen,2,3299,20,Coimbatore,UPI,Completed
+ORD1071,2026-09-21 10:44:53,C1271,P007,T-Shirt,Fashion,2,599,0,Chennai,Credit Card,Completed
+ORD1072,2026-09-21 10:45:21,C1338,P024,Dumbbell Set,Sports,1,1899,5,Chennai,UPI,Completed
+ORD1073,2026-09-21 10:45:47,C1288,P029,Programming Book,Books,2,799,0,Bengaluru,UPI,Completed
+ORD1074,2026-09-21 10:46:38,C1123,P009,Shoes,Fashion,2,2499,15,Chennai,Net Banking,Completed
+ORD1075,2026-09-21 10:47:12,C1157,P016,Bedsheet Set,Home & Kitchen,2,899,0,Madurai,Cash on Delivery,Completed
+ORD1076,2026-09-21 10:47:37,C1290,P002,Smartphone,Electronics,5,24999,0,Bengaluru,UPI,Completed
+ORD1077,2026-09-21 10:47:40,C1201,P028,Self-Help Book,Books,1,299,25,Chennai,UPI,Cancelled
+ORD1078,2026-09-21 10:47:57,C1046,P019,Perfume,Beauty,4,1299,25,Coimbatore,UPI,Completed
+ORD1079,2026-09-21 10:49:16,C1198,P007,T-Shirt,Fashion,3,599,5,Chennai,Debit Card,Completed
+ORD1080,2026-09-21 10:49:22,C1067,P008,Jeans,Fashion,1,1499,30,Chennai,Credit Card,Completed
+ORD1081,2026-09-21 10:49:24,C1141,P011,Jacket,Fashion,2,2999,0,Chennai,UPI,Completed
+ORD1082,2026-09-21 10:50:28,C1182,P036,Mouse,Accessories,2,499,25,Erode,Net Banking,Completed
+ORD1083,2026-09-21 10:50:36,C1189,P014,Water Bottle,Home & Kitchen,1,399,30,Madurai,UPI,Completed
+ORD1084,2026-09-21 10:50:42,C1075,P012,Mixer Grinder,Home & Kitchen,4,3299,20,Chennai,Net Banking,Completed
+ORD1085,2026-09-21 10:51:06,C1350,P032,Tea Powder 500g,Grocery,5,260,0,Salem,UPI,Completed
+ORD1086,2026-09-21 10:51:09,C1019,P038,Phone Case,Accessories,5,299,0,Bengaluru,Debit Card,Completed
+ORD1087,2026-09-21 10:52:26,C1297,P036,Mouse,Accessories,1,499,10,Bengaluru,Debit Card,Cancelled
+ORD1088,2026-09-21 10:53:08,C1245,P002,Smartphone,Electronics,4,24999,10,Trichy,UPI,Returned
+ORD1089,2026-09-21 10:53:09,C1171,P036,Mouse,Accessories,1,499,10,Chennai,UPI,Completed
+ORD1090,2026-09-21 10:54:05,C1001,P023,Football,Sports,4,799,0,Chennai,Debit Card,Cancelled
+ORD1091,2026-09-21 10:54:25,C1116,P036,Mouse,Accessories,1,499,10,Hyderabad,Debit Card,Completed
+ORD1092,2026-09-21 10:55:44,C1338,P036,Mouse,Accessories,1,499,40,Coimbatore,UPI,Completed
+ORD1093,2026-09-21 10:55:51,C1056,P005,Smartwatch,Electronics,4,3999,20,Mumbai,Debit Card,Completed
+ORD1094,2026-09-21 10:55:53,C1240,P039,Power Bank,Accessories,4,1499,20,Chennai,Credit Card,Completed
+ORD1095,2026-09-21 10:56:54,C1238,P012,Mixer Grinder,Home & Kitchen,1,3299,20,Hyderabad,Cash on Delivery,Completed
+ORD1096,2026-09-21 10:57:41,C1338,P040,USB Cable,Accessories,1,199,15,Hyderabad,Net Banking,Completed
+ORD1097,2026-09-21 10:58:42,C1328,P025,Badminton Racket,Sports,1,1099,20,Chennai,Net Banking,Completed
+ORD1098,2026-09-21 10:59:08,C1030,P036,Mouse,Accessories,2,499,15,Bengaluru,Credit Card,Completed
+ORD1099,2026-09-21 10:59:17,C1024,P009,Shoes,Fashion,1,2499,0,Chennai,UPI,Completed
+ORD1100,2026-09-21 10:59:24,C1310,P039,Power Bank,Accessories,1,1499,5,Trichy,UPI,Completed
+ORD1101,2026-09-21 10:59:26,C1224,P036,Mouse,Accessories,2,499,0,Chennai,Cash on Delivery,Completed
+ORD1102,2026-09-21 10:59:29,C1336,P012,Mixer Grinder,Home & Kitchen,1,3299,0,Coimbatore,Debit Card,Completed
+ORD1103,2026-09-21 10:59:59,C1030,P037,Backpack,Accessories,2,1299,15,Madurai,UPI,Returned
+ORD1104,2026-09-21 11:00:03,C1312,P007,T-Shirt,Fashion,1,599,0,Chennai,UPI,Completed
+ORD1105,2026-09-21 11:00:05,C1256,P030,Rice Bag 5kg,Grocery,1,450,0,Chennai,UPI,Completed
+ORD1106,2026-09-21 11:00:16,C1054,P036,Mouse,Accessories,1,499,5,Chennai,Debit Card,Completed
+ORD1107,2026-09-21 11:02:09,C1008,P007,T-Shirt,Fashion,1,599,0,Chennai,Cash on Delivery,Completed
+ORD1108,2026-09-21 11:02:43,C1170,P016,Bedsheet Set,Home & Kitchen,2,899,0,Trichy,UPI,Cancelled
+ORD1109,2026-09-21 11:02:44,C1153,P015,Electric Kettle,Home & Kitchen,1,1199,10,Chennai,UPI,Completed
+ORD1110,2026-09-21 11:03:17,C1229,P031,Cooking Oil 1L,Grocery,1,180,5,Trichy,Net Banking,Completed
+ORD1111,2026-09-21 11:03:29,C1295,P025,Badminton Racket,Sports,3,1099,5,Madurai,Cash on Delivery,Completed
+ORD1112,2026-09-21 11:03:44,C1165,P036,Mouse,Accessories,1,499,30,Tirunelveli,Credit Card,Cancelled
+ORD1113,2026-09-21 11:03:49,C1232,P034,Snack Combo Pack,Grocery,2,199,0,Erode,UPI,Returned
+ORD1114,2026-09-21 11:04:13,C1279,P039,Power Bank,Accessories,1,1499,5,Mumbai,Credit Card,Returned
+ORD1115,2026-09-21 11:06:02,C1291,P027,Notebook,Books,1,120,30,Hyderabad,UPI,Completed
+ORD1116,2026-09-21 11:06:07,C1116,P016,Bedsheet Set,Home & Kitchen,1,899,10,Bengaluru,Debit Card,Completed
+ORD1117,2026-09-21 11:06:11,C1143,P023,Football,Sports,1,799,0,Trichy,Debit Card,Cancelled
+ORD1118,2026-09-21 11:06:39,C1195,P038,Phone Case,Accessories,1,299,0,Madurai,UPI,Completed
+ORD1119,2026-09-21 11:06:56,C1169,P015,Electric Kettle,Home & Kitchen,2,1199,0,Chennai,UPI,Completed
+ORD1120,2026-09-21 11:06:57,C1012,P029,Programming Book,Books,4,799,5,Chennai,Debit Card,Cancelled
+ORD1121,2026-09-21 11:07:20,C1007,P037,Backpack,Accessories,3,1299,5,Chennai,Credit Card,Completed
+ORD1122,2026-09-21 11:07:34,C1304,P004,Wireless Headphones,Electronics,1,1499,50,Madurai,Cash on Delivery,Completed
+ORD1123,2026-09-21 11:08:39,C1223,P016,Bedsheet Set,Home & Kitchen,1,899,0,Bengaluru,Debit Card,Completed
+ORD1124,2026-09-21 11:09:23,C1285,P036,Mouse,Accessories,2,499,0,Coimbatore,Credit Card,Completed
+ORD1125,2026-09-21 11:11:10,C1309,P036,Mouse,Accessories,1,499,0,Bengaluru,Cash on Delivery,Completed
+ORD1126,2026-09-21 11:12:34,C1322,P020,Hair Dryer,Beauty,2,1599,0,Bengaluru,Credit Card,Completed
+ORD1127,2026-09-21 11:14:02,C1008,P005,Smartwatch,Electronics,1,3999,10,Chennai,Cash on Delivery,Completed
+ORD1128,2026-09-21 11:14:08,C1057,P013,Cookware Set,Home & Kitchen,4,2799,20,Salem,UPI,Completed
+ORD1129,2026-09-21 11:14:17,C1198,P007,T-Shirt,Fashion,5,599,25,Salem,Debit Card,Completed
+ORD1130,2026-09-21 11:15:03,C1007,P016,Bedsheet Set,Home & Kitchen,3,899,20,Chennai,Cash on Delivery,Completed
+ORD1131,2026-09-21 11:15:31,C1004,P027,Notebook,Books,1,120,25,Coimbatore,Net Banking,Completed
+ORD1132,2026-09-21 11:17:06,C1129,P017,Face Wash,Beauty,1,249,0,Madurai,Debit Card,Completed
+ORD1133,2026-09-21 11:17:12,C1034,P016,Bedsheet Set,Home & Kitchen,2,899,15,Bengaluru,UPI,Completed
+ORD1134,2026-09-21 11:17:13,C1105,P027,Notebook,Books,1,120,0,Mumbai,Debit Card,Cancelled
+ORD1135,2026-09-21 11:17:18,C1250,P010,Kurta,Fashion,4,999,0,Chennai,Debit Card,Cancelled
+ORD1136,2026-09-21 11:17:25,C1277,P034,Snack Combo Pack,Grocery,2,199,15,Salem,Debit Card,Completed
+ORD1137,2026-09-21 11:18:13,C1090,P040,USB Cable,Accessories,1,199,5,Chennai,Debit Card,Completed
+ORD1138,2026-09-21 11:18:17,C1255,P007,T-Shirt,Fashion,1,599,10,Erode,Cash on Delivery,Completed
+ORD1139,2026-09-21 11:19:03,C1297,P023,Football,Sports,3,799,30,Chennai,UPI,Completed
+ORD1140,2026-09-21 11:19:04,C1279,P010,Kurta,Fashion,3,999,0,Salem,UPI,Completed
+ORD1141,2026-09-21 11:19:36,C1259,P013,Cookware Set,Home & Kitchen,1,2799,20,Coimbatore,UPI,Completed
+ORD1142,2026-09-21 11:19:37,C1162,P036,Mouse,Accessories,3,499,10,Hyderabad,UPI,Cancelled
+ORD1143,2026-09-21 11:21:25,C1303,P022,Yoga Mat,Sports,1,699,0,Chennai,Cash on Delivery,Completed
+ORD1144,2026-09-21 11:21:26,C1141,P007,T-Shirt,Fashion,2,599,30,Madurai,UPI,Completed
+ORD1145,2026-09-21 11:22:11,C1170,P033,Coffee Powder 200g,Grocery,2,340,0,Salem,UPI,Completed
+ORD1146,2026-09-21 11:22:28,C1058,P032,Tea Powder 500g,Grocery,3,260,10,Erode,UPI,Completed
+ORD1147,2026-09-21 11:23:51,C1138,P027,Notebook,Books,5,120,5,Chennai,UPI,Completed
+ORD1148,2026-09-21 11:24:46,C1115,P002,Smartphone,Electronics,3,24999,0,Salem,Debit Card,Completed
+ORD1149,2026-09-21 11:24:56,C1121,P029,Programming Book,Books,1,799,5,Trichy,UPI,Completed
+ORD1150,2026-09-21 11:26:00,C1100,P012,Mixer Grinder,Home & Kitchen,2,3299,10,Coimbatore,Cash on Delivery,Returned
+ORD1151,2026-09-21 11:26:21,C1315,P013,Cookware Set,Home & Kitchen,1,2799,0,Hyderabad,Cash on Delivery,Completed
+ORD1152,2026-09-21 11:28:04,C1256,P009,Shoes,Fashion,1,2499,20,Trichy,UPI,Completed
+ORD1153,2026-09-21 11:28:25,C1011,P028,Self-Help Book,Books,3,299,0,Madurai,UPI,Returned
+ORD1154,2026-09-21 11:29:18,C1225,P028,Self-Help Book,Books,1,299,15,Coimbatore,UPI,Completed
+ORD1155,2026-09-21 11:29:24,C1054,P021,Cricket Bat,Sports,2,2199,15,Coimbatore,Debit Card,Completed
+ORD1156,2026-09-21 11:29:43,C1210,P011,Jacket,Fashion,1,2999,25,Chennai,Debit Card,Completed
+ORD1157,2026-09-21 11:29:46,C1037,P004,Wireless Headphones,Electronics,1,1499,0,Chennai,Credit Card,Completed
+ORD1158,2026-09-21 11:31:26,C1103,P029,Programming Book,Books,1,799,10,Chennai,Cash on Delivery,Completed
+ORD1159,2026-09-21 11:32:00,C1230,P001,Laptop,Electronics,4,55000,25,Salem,UPI,Completed
+ORD1160,2026-09-21 11:32:05,C1255,P023,Football,Sports,1,799,0,Chennai,Net Banking,Completed
+ORD1161,2026-09-21 11:32:15,C1033,P020,Hair Dryer,Beauty,1,1599,0,Chennai,Cash on Delivery,Completed
+ORD1162,2026-09-21 11:32:16,C1031,P031,Cooking Oil 1L,Grocery,3,180,0,Bengaluru,Debit Card,Completed
+ORD1163,2026-09-21 11:32:24,C1151,P013,Cookware Set,Home & Kitchen,2,2799,30,Chennai,Cash on Delivery,Completed
+ORD1164,2026-09-21 11:32:46,C1338,P016,Bedsheet Set,Home & Kitchen,1,899,5,Bengaluru,Debit Card,Completed
+ORD1165,2026-09-21 11:32:54,C1040,P034,Snack Combo Pack,Grocery,2,199,0,Hyderabad,UPI,Completed
+ORD1166,2026-09-21 11:33:06,C1277,P027,Notebook,Books,2,120,0,Coimbatore,UPI,Completed
+ORD1167,2026-09-21 11:33:23,C1293,P029,Programming Book,Books,5,799,0,Hyderabad,UPI,Completed
+ORD1168,2026-09-21 11:33:24,C1091,P002,Smartphone,Electronics,1,24999,20,Salem,Debit Card,Completed
+ORD1169,2026-09-21 11:33:32,C1341,P025,Badminton Racket,Sports,2,1099,5,Madurai,Debit Card,Completed
+ORD1170,2026-09-21 11:33:43,C1086,P028,Self-Help Book,Books,1,299,15,Coimbatore,Cash on Delivery,Completed
+ORD1171,2026-09-21 11:33:45,C1019,P040,USB Cable,Accessories,2,199,0,Bengaluru,Cash on Delivery,Cancelled
+ORD1172,2026-09-21 11:33:49,C1170,P004,Wireless Headphones,Electronics,1,1499,50,Chennai,UPI,Completed
+ORD1173,2026-09-21 11:33:52,C1082,P016,Bedsheet Set,Home & Kitchen,1,899,25,Madurai,Cash on Delivery,Completed
+ORD1174,2026-09-21 11:34:24,C1172,P004,Wireless Headphones,Electronics,2,1499,0,Coimbatore,Credit Card,Completed
+ORD1175,2026-09-21 11:35:20,C1210,P004,Wireless Headphones,Electronics,2,1499,5,Madurai,UPI,Completed
+ORD1176,2026-09-21 11:35:24,C1126,P038,Phone Case,Accessories,1,299,0,Madurai,Credit Card,Completed
+ORD1177,2026-09-21 11:36:23,C1226,P021,Cricket Bat,Sports,2,2199,0,Erode,UPI,Completed
+ORD1178,2026-09-21 11:36:42,C1338,P035,Keyboard,Accessories,1,899,10,Tirunelveli,UPI,Completed
+ORD1179,2026-09-21 11:36:44,C1253,P006,Bluetooth Speaker,Electronics,2,2499,0,Trichy,UPI,Cancelled
+ORD1180,2026-09-21 11:36:58,C1159,P015,Electric Kettle,Home & Kitchen,3,1199,20,Chennai,UPI,Cancelled
+ORD1181,2026-09-21 11:37:05,C1204,P036,Mouse,Accessories,3,499,10,Salem,Net Banking,Completed
+ORD1182,2026-09-21 11:37:21,C1183,P022,Yoga Mat,Sports,1,699,40,Bengaluru,Credit Card,Completed
+ORD1183,2026-09-21 11:37:42,C1063,P038,Phone Case,Accessories,2,299,20,Chennai,UPI,Completed
+ORD1184,2026-09-21 11:38:09,C1175,P036,Mouse,Accessories,1,499,50,Hyderabad,Debit Card,Completed
+ORD1185,2026-09-21 11:38:25,C1339,P039,Power Bank,Accessories,1,1499,0,Coimbatore,Debit Card,Completed
+ORD1186,2026-09-21 11:39:00,C1245,P012,Mixer Grinder,Home & Kitchen,3,3299,20,Hyderabad,Debit Card,Completed
+ORD1187,2026-09-21 11:39:04,C1100,P027,Notebook,Books,1,120,15,Mumbai,Debit Card,Returned
+ORD1188,2026-09-21 11:39:22,C1241,P022,Yoga Mat,Sports,1,699,0,Coimbatore,Credit Card,Completed
+ORD1189,2026-09-21 11:39:33,C1142,P028,Self-Help Book,Books,2,299,25,Chennai,Cash on Delivery,Completed
+ORD1190,2026-09-21 11:39:47,C1008,P023,Football,Sports,1,799,15,Chennai,Debit Card,Completed
+ORD1191,2026-09-21 11:40:51,C1087,P011,Jacket,Fashion,3,2999,15,Chennai,Debit Card,Completed
+ORD1192,2026-09-21 11:41:12,C1034,P034,Snack Combo Pack,Grocery,3,199,20,Bengaluru,Debit Card,Completed
+ORD1193,2026-09-21 11:41:33,C1273,P009,Shoes,Fashion,3,2499,0,Salem,Cash on Delivery,Completed
+ORD1194,2026-09-21 11:41:34,C1341,P038,Phone Case,Accessories,1,299,10,Chennai,UPI,Completed
+ORD1195,2026-09-21 11:41:39,C1305,P033,Coffee Powder 200g,Grocery,3,340,30,Tirunelveli,Debit Card,Completed
+ORD1196,2026-09-21 11:42:11,C1209,P025,Badminton Racket,Sports,3,1099,40,Chennai,UPI,Completed
+ORD1197,2026-09-21 11:42:12,C1061,P007,T-Shirt,Fashion,2,599,5,Coimbatore,Credit Card,Completed
+ORD1198,2026-09-21 11:42:30,C1089,P026,Novel,Books,1,349,20,Chennai,UPI,Completed
+ORD1199,2026-09-21 11:42:42,C1328,P002,Smartphone,Electronics,2,24999,15,Madurai,Credit Card,Completed
+ORD1200,2026-09-21 11:42:59,C1113,P033,Coffee Powder 200g,Grocery,1,340,0,Chennai,Credit Card,Completed
+ORD1201,2026-09-21 11:43:08,C1030,P024,Dumbbell Set,Sports,1,1899,0,Coimbatore,UPI,Completed
+ORD1202,2026-09-21 11:43:11,C1183,P031,Cooking Oil 1L,Grocery,5,180,25,Mumbai,UPI,Completed
+ORD1203,2026-09-21 11:43:55,C1317,P019,Perfume,Beauty,2,1299,15,Hyderabad,Debit Card,Completed
+ORD1204,2026-09-21 11:44:38,C1333,P038,Phone Case,Accessories,1,299,10,Chennai,Cash on Delivery,Completed
+ORD1205,2026-09-21 11:44:42,C1277,P015,Electric Kettle,Home & Kitchen,1,1199,0,Bengaluru,UPI,Completed
+ORD1206,2026-09-21 11:45:05,C1058,P038,Phone Case,Accessories,4,299,10,Chennai,UPI,Completed
+ORD1207,2026-09-21 11:45:21,C1302,P033,Coffee Powder 200g,Grocery,1,340,0,Madurai,Debit Card,Returned
+ORD1208,2026-09-21 11:45:23,C1223,P033,Coffee Powder 200g,Grocery,4,340,20,Chennai,Credit Card,Completed
+ORD1209,2026-09-21 11:45:35,C1019,P004,Wireless Headphones,Electronics,3,1499,10,Trichy,UPI,Completed
+ORD1210,2026-09-21 11:45:51,C1216,P015,Electric Kettle,Home & Kitchen,1,1199,0,Salem,Credit Card,Completed
+ORD1211,2026-09-21 11:46:19,C1264,P027,Notebook,Books,2,120,20,Chennai,Cash on Delivery,Completed
+ORD1212,2026-09-21 11:46:52,C1106,P033,Coffee Powder 200g,Grocery,1,340,20,Coimbatore,UPI,Completed
+ORD1213,2026-09-21 11:47:03,C1184,P021,Cricket Bat,Sports,1,2199,5,Erode,Credit Card,Returned
+ORD1214,2026-09-21 11:47:14,C1232,P006,Bluetooth Speaker,Electronics,4,2499,20,Tirunelveli,UPI,Returned
+ORD1215,2026-09-21 11:47:53,C1193,P025,Badminton Racket,Sports,1,1099,0,Trichy,Credit Card,Returned
+ORD1216,2026-09-21 11:48:20,C1262,P012,Mixer Grinder,Home & Kitchen,4,3299,5,Coimbatore,Debit Card,Completed
+ORD1217,2026-09-21 11:48:26,C1076,P007,T-Shirt,Fashion,3,599,0,Chennai,Debit Card,Completed
+ORD1218,2026-09-21 11:48:39,C1328,P036,Mouse,Accessories,5,499,10,Trichy,UPI,Completed
+ORD1219,2026-09-21 11:48:50,C1255,P004,Wireless Headphones,Electronics,1,1499,5,Chennai,Debit Card,Completed
+ORD1220,2026-09-21 11:48:55,C1315,P027,Notebook,Books,1,120,10,Trichy,UPI,Completed
+ORD1221,2026-09-21 11:49:39,C1127,P025,Badminton Racket,Sports,1,1099,5,Chennai,UPI,Completed
+ORD1222,2026-09-21 11:49:42,C1150,P031,Cooking Oil 1L,Grocery,3,180,0,Tirunelveli,Cash on Delivery,Completed
+ORD1223,2026-09-21 11:49:45,C1108,P014,Water Bottle,Home & Kitchen,2,399,0,Trichy,Cash on Delivery,Completed
+ORD1224,2026-09-21 11:49:55,C1187,P006,Bluetooth Speaker,Electronics,1,2499,30,Chennai,UPI,Completed
+ORD1225,2026-09-21 11:50:07,C1008,P023,Football,Sports,2,799,5,Trichy,Cash on Delivery,Completed
+ORD1226,2026-09-21 11:50:17,C1350,P024,Dumbbell Set,Sports,1,1899,20,Coimbatore,UPI,Completed
+ORD1227,2026-09-21 11:50:46,C1100,P030,Rice Bag 5kg,Grocery,1,450,10,Coimbatore,Credit Card,Completed
+ORD1228,2026-09-21 11:50:47,C1278,P036,Mouse,Accessories,2,499,0,Madurai,Credit Card,Completed
+ORD1229,2026-09-21 11:51:04,C1227,P038,Phone Case,Accessories,5,299,20,Madurai,UPI,Completed
+ORD1230,2026-09-21 11:52:01,C1023,P022,Yoga Mat,Sports,1,699,0,Chennai,Cash on Delivery,Completed
+ORD1231,2026-09-21 11:52:10,C1158,P021,Cricket Bat,Sports,1,2199,50,Coimbatore,Debit Card,Completed
+ORD1232,2026-09-21 11:52:46,C1292,P035,Keyboard,Accessories,1,899,10,Chennai,Debit Card,Completed
+ORD1233,2026-09-21 11:53:12,C1292,P028,Self-Help Book,Books,2,299,5,Hyderabad,Credit Card,Completed
+ORD1234,2026-09-21 11:53:57,C1170,P036,Mouse,Accessories,1,499,15,Madurai,UPI,Completed
+ORD1235,2026-09-21 11:54:03,C1222,P004,Wireless Headphones,Electronics,1,1499,0,Coimbatore,Debit Card,Completed
+ORD1236,2026-09-21 11:54:12,C1280,P009,Shoes,Fashion,2,2499,10,Madurai,UPI,Completed
+ORD1237,2026-09-21 11:54:44,C1007,P035,Keyboard,Accessories,1,899,10,Chennai,Debit Card,Completed
+ORD1238,2026-09-21 11:55:20,C1019,P025,Badminton Racket,Sports,1,1099,0,Hyderabad,Credit Card,Completed
+ORD1239,2026-09-21 11:56:38,C1254,P002,Smartphone,Electronics,2,24999,0,Chennai,Credit Card,Returned
+ORD1240,2026-09-21 11:57:25,C1060,P036,Mouse,Accessories,3,499,15,Erode,Cash on Delivery,Completed
+ORD1241,2026-09-21 11:57:46,C1093,P028,Self-Help Book,Books,2,299,5,Madurai,Credit Card,Completed
+ORD1242,2026-09-21 11:57:57,C1038,P015,Electric Kettle,Home & Kitchen,1,1199,25,Madurai,UPI,Completed
+ORD1243,2026-09-21 11:58:01,C1165,P004,Wireless Headphones,Electronics,2,1499,0,Erode,Credit Card,Completed
+ORD1244,2026-09-21 11:58:08,C1046,P022,Yoga Mat,Sports,2,699,25,Bengaluru,Debit Card,Completed
+ORD1245,2026-09-21 11:58:16,C1127,P023,Football,Sports,1,799,10,Chennai,Cash on Delivery,Completed
+ORD1246,2026-09-21 11:58:22,C1204,P015,Electric Kettle,Home & Kitchen,2,1199,20,Salem,UPI,Completed
+ORD1247,2026-09-21 11:58:32,C1082,P021,Cricket Bat,Sports,3,2199,0,Bengaluru,UPI,Completed
+ORD1248,2026-09-21 11:58:44,C1274,P030,Rice Bag 5kg,Grocery,2,450,0,Chennai,Debit Card,Completed
+ORD1249,2026-09-21 11:58:45,C1125,P012,Mixer Grinder,Home & Kitchen,1,3299,15,Chennai,Cash on Delivery,Completed
+ORD1250,2026-09-21 11:58:50,C1096,P014,Water Bottle,Home & Kitchen,2,399,20,Coimbatore,Debit Card,Completed
+ORD1251,2026-09-21 11:59:08,C1193,P015,Electric Kettle,Home & Kitchen,1,1199,5,Coimbatore,Debit Card,Completed
+ORD1252,2026-09-21 11:59:09,C1227,P036,Mouse,Accessories,2,499,5,Salem,UPI,Completed
+ORD1253,2026-09-21 11:59:45,C1118,P016,Bedsheet Set,Home & Kitchen,2,899,15,Tirunelveli,UPI,Returned
+ORD1254,2026-09-21 11:59:50,C1030,P001,Laptop,Electronics,1,55000,30,Coimbatore,UPI,Completed
+ORD1255,2026-09-21 11:59:52,C1011,P004,Wireless Headphones,Electronics,1,1499,50,Trichy,Credit Card,Completed
+ORD1256,2026-09-21 12:00:04,C1333,P027,Notebook,Books,3,120,15,Coimbatore,UPI,Completed
+ORD1257,2026-09-21 12:00:13,C1100,P034,Snack Combo Pack,Grocery,1,199,10,Madurai,UPI,Completed
+ORD1258,2026-09-21 12:01:19,C1084,P002,Smartphone,Electronics,1,24999,0,Mumbai,Debit Card,Completed
+ORD1259,2026-09-21 12:01:49,C1202,P015,Electric Kettle,Home & Kitchen,2,1199,20,Chennai,UPI,Completed
+ORD1260,2026-09-21 12:01:56,C1321,P035,Keyboard,Accessories,1,899,40,Chennai,Credit Card,Completed
+ORD1261,2026-09-21 12:02:48,C1199,P038,Phone Case,Accessories,1,299,5,Chennai,UPI,Completed
+ORD1262,2026-09-21 12:03:35,C1277,P038,Phone Case,Accessories,4,299,30,Bengaluru,Credit Card,Completed
+ORD1263,2026-09-21 12:04:31,C1196,P039,Power Bank,Accessories,3,1499,20,Mumbai,Credit Card,Completed
+ORD1264,2026-09-21 12:04:48,C1008,P027,Notebook,Books,1,120,0,Salem,Net Banking,Completed
+ORD1265,2026-09-21 12:04:53,C1112,P009,Shoes,Fashion,4,2499,10,Chennai,Cash on Delivery,Completed
+ORD1266,2026-09-21 12:05:00,C1230,P004,Wireless Headphones,Electronics,3,1499,0,Hyderabad,Credit Card,Completed
+ORD1267,2026-09-21 12:05:32,C1095,P037,Backpack,Accessories,4,1299,15,Hyderabad,Credit Card,Completed
+ORD1268,2026-09-21 12:05:48,C1307,P030,Rice Bag 5kg,Grocery,1,450,0,Chennai,Credit Card,Completed
+ORD1269,2026-09-21 12:05:52,C1323,P004,Wireless Headphones,Electronics,2,1499,15,Trichy,Debit Card,Completed
+ORD1270,2026-09-21 12:05:53,C1168,P002,Smartphone,Electronics,2,24999,10,Mumbai,Cash on Delivery,Cancelled
+ORD1271,2026-09-21 12:05:54,C1344,P022,Yoga Mat,Sports,4,699,0,Chennai,Credit Card,Completed
+ORD1272,2026-09-21 12:06:07,C1167,P034,Snack Combo Pack,Grocery,2,199,10,Coimbatore,Debit Card,Completed
+ORD1273,2026-09-21 12:06:15,C1243,P039,Power Bank,Accessories,1,1499,15,Chennai,UPI,Completed
+ORD1274,2026-09-21 12:06:27,C1212,P012,Mixer Grinder,Home & Kitchen,1,3299,10,Chennai,Credit Card,Completed
+ORD1275,2026-09-21 12:06:30,C1172,P014,Water Bottle,Home & Kitchen,1,399,20,Coimbatore,Cash on Delivery,Completed
+ORD1276,2026-09-21 12:06:51,C1046,P007,T-Shirt,Fashion,2,599,0,Chennai,UPI,Completed
+ORD1277,2026-09-21 12:07:41,C1131,P018,Moisturizer,Beauty,1,399,40,Chennai,Cash on Delivery,Completed
+ORD1278,2026-09-21 12:07:53,C1349,P022,Yoga Mat,Sports,3,699,10,Tirunelveli,Debit Card,Completed
+ORD1279,2026-09-21 12:08:10,C1197,P025,Badminton Racket,Sports,1,1099,15,Chennai,Cash on Delivery,Completed
+ORD1280,2026-09-21 12:08:15,C1156,P027,Notebook,Books,1,120,5,Trichy,Cash on Delivery,Completed
+ORD1281,2026-09-21 12:08:21,C1042,P002,Smartphone,Electronics,3,24999,40,Chennai,Credit Card,Completed
+ORD1282,2026-09-21 12:08:48,C1271,P007,T-Shirt,Fashion,1,599,15,Madurai,Debit Card,Cancelled
+ORD1283,2026-09-21 12:09:10,C1100,P015,Electric Kettle,Home & Kitchen,2,1199,0,Chennai,Cash on Delivery,Completed
+ORD1284,2026-09-21 12:09:23,C1198,P027,Notebook,Books,3,120,0,Chennai,UPI,Completed
+ORD1285,2026-09-21 12:09:36,C1095,P011,Jacket,Fashion,2,2999,0,Madurai,Cash on Delivery,Completed
+ORD1286,2026-09-21 12:09:41,C1339,P027,Notebook,Books,1,120,0,Chennai,Debit Card,Completed
+ORD1287,2026-09-21 12:09:59,C1245,P038,Phone Case,Accessories,1,299,0,Chennai,UPI,Cancelled
+ORD1288,2026-09-21 12:10:15,C1008,P025,Badminton Racket,Sports,1,1099,20,Chennai,UPI,Completed
+ORD1289,2026-09-21 12:10:19,C1310,P028,Self-Help Book,Books,1,299,0,Chennai,Debit Card,Completed
+ORD1290,2026-09-21 12:10:29,C1008,P036,Mouse,Accessories,2,499,25,Coimbatore,Credit Card,Returned
+ORD1291,2026-09-21 12:10:34,C1095,P024,Dumbbell Set,Sports,1,1899,40,Salem,UPI,Completed
+ORD1292,2026-09-21 12:10:58,C1219,P027,Notebook,Books,2,120,10,Salem,UPI,Completed
+ORD1293,2026-09-21 12:10:59,C1277,P024,Dumbbell Set,Sports,1,1899,5,Chennai,UPI,Completed
+ORD1294,2026-09-21 12:11:09,C1298,P034,Snack Combo Pack,Grocery,1,199,10,Chennai,Cash on Delivery,Returned
+ORD1295,2026-09-21 12:11:30,C1004,P021,Cricket Bat,Sports,1,2199,0,Chennai,UPI,Completed
+ORD1296,2026-09-21 12:11:46,C1195,P016,Bedsheet Set,Home & Kitchen,1,899,0,Tirunelveli,UPI,Completed
+ORD1297,2026-09-21 12:13:39,C1144,P010,Kurta,Fashion,1,999,20,Hyderabad,Cash on Delivery,Completed
+ORD1298,2026-09-21 12:13:47,C1259,P011,Jacket,Fashion,3,2999,5,Bengaluru,UPI,Completed
+ORD1299,2026-09-21 12:13:54,C1213,P027,Notebook,Books,1,120,15,Chennai,UPI,Completed
+ORD1300,2026-09-21 12:14:19,C1067,P024,Dumbbell Set,Sports,1,1899,0,Tirunelveli,Debit Card,Completed
+ORD1301,2026-09-21 12:14:46,C1171,P006,Bluetooth Speaker,Electronics,1,2499,5,Erode,Net Banking,Completed
+ORD1302,2026-09-21 12:15:09,C1117,P033,Coffee Powder 200g,Grocery,3,340,40,Chennai,Debit Card,Completed
+ORD1303,2026-09-21 12:15:35,C1068,P021,Cricket Bat,Sports,3,2199,25,Bengaluru,UPI,Completed
+ORD1304,2026-09-21 12:15:52,C1267,P009,Shoes,Fashion,1,2499,20,Chennai,Credit Card,Completed
+ORD1305,2026-09-21 12:16:10,C1343,P023,Football,Sports,1,799,15,Coimbatore,UPI,Completed
+ORD1306,2026-09-21 12:16:45,C1329,P002,Smartphone,Electronics,2,24999,0,Salem,UPI,Cancelled
+ORD1307,2026-09-21 12:16:53,C1075,P036,Mouse,Accessories,1,499,15,Coimbatore,UPI,Completed
+ORD1308,2026-09-21 12:17:17,C1274,P004,Wireless Headphones,Electronics,1,1499,0,Erode,Credit Card,Completed
+ORD1309,2026-09-21 12:17:18,C1030,P015,Electric Kettle,Home & Kitchen,1,1199,0,Trichy,Cash on Delivery,Returned
+ORD1310,2026-09-21 12:17:20,C1021,P027,Notebook,Books,2,120,20,Erode,UPI,Completed
+ORD1311,2026-09-21 12:17:40,C1274,P039,Power Bank,Accessories,3,1499,25,Coimbatore,UPI,Completed
+ORD1312,2026-09-21 12:17:42,C1047,P014,Water Bottle,Home & Kitchen,4,399,10,Coimbatore,UPI,Completed
+ORD1313,2026-09-21 12:17:44,C1067,P007,T-Shirt,Fashion,1,599,20,Chennai,Cash on Delivery,Cancelled
+ORD1314,2026-09-21 12:17:52,C1024,P025,Badminton Racket,Sports,1,1099,0,Chennai,UPI,Completed
+ORD1315,2026-09-21 12:17:57,C1130,P027,Notebook,Books,1,120,0,Bengaluru,Debit Card,Completed
+ORD1316,2026-09-21 12:17:59,C1227,P030,Rice Bag 5kg,Grocery,2,450,5,Madurai,Credit Card,Completed
+ORD1317,2026-09-21 12:18:03,C1115,P027,Notebook,Books,2,120,0,Madurai,UPI,Completed
+ORD1318,2026-09-21 12:18:26,C1307,P005,Smartwatch,Electronics,1,3999,10,Chennai,Credit Card,Completed
+ORD1319,2026-09-21 12:18:59,C1182,P028,Self-Help Book,Books,2,299,0,Coimbatore,Credit Card,Completed
+ORD1320,2026-09-21 12:19:00,C1073,P038,Phone Case,Accessories,1,299,30,Chennai,Cash on Delivery,Completed
+ORD1321,2026-09-21 12:19:16,C1329,P025,Badminton Racket,Sports,1,1099,5,Tirunelveli,Cash on Delivery,Completed
+ORD1322,2026-09-21 12:19:34,C1024,P002,Smartphone,Electronics,1,24999,40,Mumbai,UPI,Completed
+ORD1323,2026-09-21 12:20:03,C1067,P023,Football,Sports,2,799,0,Trichy,UPI,Completed
+ORD1324,2026-09-21 12:20:50,C1036,P016,Bedsheet Set,Home & Kitchen,2,899,5,Madurai,Debit Card,Cancelled
+ORD1325,2026-09-21 12:21:07,C1065,P007,T-Shirt,Fashion,1,599,5,Chennai,Net Banking,Completed
+ORD1326,2026-09-21 12:21:23,C1112,P013,Cookware Set,Home & Kitchen,5,2799,5,Coimbatore,Debit Card,Completed
+ORD1327,2026-09-21 12:21:42,C1212,P030,Rice Bag 5kg,Grocery,2,450,0,Erode,Cash on Delivery,Completed
+ORD1328,2026-09-21 12:22:10,C1154,P039,Power Bank,Accessories,1,1499,20,Mumbai,Credit Card,Completed
+ORD1329,2026-09-21 12:22:16,C1106,P040,USB Cable,Accessories,1,199,0,Bengaluru,UPI,Completed
+ORD1330,2026-09-21 12:22:21,C1096,P029,Programming Book,Books,2,799,10,Hyderabad,UPI,Completed
+ORD1331,2026-09-21 12:22:24,C1049,P013,Cookware Set,Home & Kitchen,1,2799,10,Chennai,Cash on Delivery,Completed
+ORD1332,2026-09-21 12:22:47,C1321,P016,Bedsheet Set,Home & Kitchen,2,899,20,Erode,UPI,Completed
+ORD1333,2026-09-21 12:22:48,C1199,P029,Programming Book,Books,4,799,10,Coimbatore,Debit Card,Completed
+ORD1334,2026-09-21 12:22:54,C1019,P004,Wireless Headphones,Electronics,3,1499,5,Bengaluru,UPI,Cancelled
+ORD1335,2026-09-21 12:22:55,C1080,P036,Mouse,Accessories,2,499,15,Chennai,Debit Card,Completed
+ORD1336,2026-09-21 12:23:01,C1014,P012,Mixer Grinder,Home & Kitchen,2,3299,0,Madurai,UPI,Completed
+ORD1337,2026-09-21 12:23:18,C1135,P030,Rice Bag 5kg,Grocery,1,450,10,Madurai,UPI,Completed
+ORD1338,2026-09-21 12:23:22,C1046,P015,Electric Kettle,Home & Kitchen,1,1199,10,Chennai,UPI,Completed
+ORD1339,2026-09-21 12:23:27,C1268,P022,Yoga Mat,Sports,1,699,0,Trichy,Credit Card,Completed
+ORD1340,2026-09-21 12:23:33,C1213,P007,T-Shirt,Fashion,2,599,0,Chennai,Debit Card,Completed
+ORD1341,2026-09-21 12:23:34,C1030,P038,Phone Case,Accessories,2,299,5,Coimbatore,UPI,Completed
+ORD1342,2026-09-21 12:23:52,C1108,P002,Smartphone,Electronics,5,24999,15,Mumbai,Credit Card,Completed
+ORD1343,2026-09-21 12:24:42,C1284,P002,Smartphone,Electronics,1,24999,5,Erode,Cash on Delivery,Completed
+ORD1344,2026-09-21 12:24:54,C1334,P002,Smartphone,Electronics,4,24999,25,Bengaluru,UPI,Completed
+ORD1345,2026-09-21 12:25:04,C1156,P004,Wireless Headphones,Electronics,1,1499,0,Madurai,UPI,Completed
+ORD1346,2026-09-21 12:25:19,C1168,P010,Kurta,Fashion,2,999,0,Salem,UPI,Completed
+ORD1347,2026-09-21 12:25:37,C1015,P028,Self-Help Book,Books,1,299,0,Erode,Credit Card,Completed
+ORD1348,2026-09-21 12:26:03,C1004,P028,Self-Help Book,Books,1,299,0,Bengaluru,Debit Card,Cancelled
+ORD1349,2026-09-21 12:26:04,C1303,P002,Smartphone,Electronics,2,24999,0,Coimbatore,Net Banking,Completed
+ORD1350,2026-09-21 12:26:26,C1303,P012,Mixer Grinder,Home & Kitchen,2,3299,0,Madurai,Credit Card,Cancelled
+ORD1351,2026-09-21 12:26:43,C1085,P002,Smartphone,Electronics,2,24999,5,Coimbatore,UPI,Completed
+ORD1352,2026-09-21 12:26:51,C1214,P013,Cookware Set,Home & Kitchen,1,2799,50,Madurai,Cash on Delivery,Completed
+ORD1353,2026-09-21 12:27:08,C1312,P036,Mouse,Accessories,3,499,0,Trichy,UPI,Completed
+ORD1354,2026-09-21 12:27:11,C1226,P037,Backpack,Accessories,1,1299,5,Mumbai,Credit Card,Completed
+ORD1355,2026-09-21 12:27:22,C1084,P009,Shoes,Fashion,1,2499,50,Hyderabad,UPI,Completed
+ORD1356,2026-09-21 12:29:17,C1049,P008,Jeans,Fashion,2,1499,25,Bengaluru,UPI,Completed
+ORD1357,2026-09-21 12:29:50,C1047,P023,Football,Sports,5,799,50,Chennai,Cash on Delivery,Cancelled
+ORD1358,2026-09-21 12:30:02,C1195,P012,Mixer Grinder,Home & Kitchen,4,3299,0,Coimbatore,Cash on Delivery,Completed
+ORD1359,2026-09-21 12:30:09,C1309,P032,Tea Powder 500g,Grocery,1,260,5,Madurai,Cash on Delivery,Cancelled
+ORD1360,2026-09-21 12:30:12,C1096,P038,Phone Case,Accessories,3,299,0,Chennai,Debit Card,Completed
+ORD1361,2026-09-21 12:30:25,C1197,P011,Jacket,Fashion,1,2999,0,Salem,UPI,Completed
+ORD1362,2026-09-21 12:30:35,C1174,P021,Cricket Bat,Sports,2,2199,20,Coimbatore,Cash on Delivery,Completed
+ORD1363,2026-09-21 12:30:36,C1069,P005,Smartwatch,Electronics,1,3999,20,Chennai,UPI,Completed
+ORD1364,2026-09-21 12:30:41,C1345,P031,Cooking Oil 1L,Grocery,3,180,0,Hyderabad,Net Banking,Cancelled
+ORD1365,2026-09-21 12:31:10,C1116,P022,Yoga Mat,Sports,1,699,0,Coimbatore,UPI,Completed
+ORD1366,2026-09-21 12:31:44,C1112,P015,Electric Kettle,Home & Kitchen,2,1199,20,Trichy,Credit Card,Cancelled
+ORD1367,2026-09-21 12:31:56,C1182,P033,Coffee Powder 200g,Grocery,1,340,25,Chennai,Net Banking,Completed
+ORD1368,2026-09-21 12:31:57,C1257,P015,Electric Kettle,Home & Kitchen,2,1199,10,Salem,UPI,Completed
+ORD1369,2026-09-21 12:32:16,C1108,P016,Bedsheet Set,Home & Kitchen,3,899,10,Coimbatore,Credit Card,Completed
+ORD1370,2026-09-21 12:32:27,C1050,P023,Football,Sports,3,799,10,Tirunelveli,UPI,Completed
+ORD1371,2026-09-21 12:32:28,C1242,P038,Phone Case,Accessories,1,299,5,Madurai,UPI,Completed
+ORD1372,2026-09-21 12:32:34,C1072,P030,Rice Bag 5kg,Grocery,1,450,0,Salem,Cash on Delivery,Completed
+ORD1373,2026-09-21 12:32:47,C1044,P030,Rice Bag 5kg,Grocery,1,450,5,Coimbatore,Credit Card,Completed
+ORD1374,2026-09-21 12:32:52,C1177,P033,Coffee Powder 200g,Grocery,4,340,5,Coimbatore,Debit Card,Cancelled
+ORD1375,2026-09-21 12:33:16,C1227,P025,Badminton Racket,Sports,1,1099,25,Chennai,Debit Card,Completed
+ORD1376,2026-09-21 12:33:17,C1266,P012,Mixer Grinder,Home & Kitchen,1,3299,15,Chennai,UPI,Completed
+ORD1377,2026-09-21 12:33:22,C1088,P027,Notebook,Books,1,120,25,Trichy,UPI,Cancelled
+ORD1378,2026-09-21 12:33:24,C1204,P009,Shoes,Fashion,1,2499,5,Chennai,Credit Card,Completed
+ORD1379,2026-09-21 12:33:44,C1213,P025,Badminton Racket,Sports,2,1099,25,Chennai,UPI,Completed
+ORD1380,2026-09-21 12:34:37,C1299,P002,Smartphone,Electronics,2,24999,25,Chennai,Cash on Delivery,Completed
+ORD1381,2026-09-21 12:35:01,C1064,P016,Bedsheet Set,Home & Kitchen,2,899,15,Salem,Credit Card,Completed
+ORD1382,2026-09-21 12:35:14,C1158,P007,T-Shirt,Fashion,2,599,40,Chennai,UPI,Completed
+ORD1383,2026-09-21 12:35:26,C1024,P015,Electric Kettle,Home & Kitchen,1,1199,10,Chennai,UPI,Completed
+ORD1384,2026-09-21 12:35:30,C1183,P011,Jacket,Fashion,2,2999,15,Trichy,UPI,Completed
+ORD1385,2026-09-21 12:35:57,C1345,P027,Notebook,Books,1,120,15,Hyderabad,Net Banking,Completed
+ORD1386,2026-09-21 12:35:58,C1112,P027,Notebook,Books,2,120,50,Coimbatore,UPI,Completed
+ORD1387,2026-09-21 12:36:36,C1217,P023,Football,Sports,1,799,0,Trichy,Debit Card,Returned
+ORD1388,2026-09-21 12:37:06,C1007,P001,Laptop,Electronics,2,55000,0,Bengaluru,Debit Card,Returned
+ORD1389,2026-09-21 12:37:07,C1117,P016,Bedsheet Set,Home & Kitchen,2,899,15,Chennai,UPI,Completed
+ORD1390,2026-09-21 12:37:43,C1110,P033,Coffee Powder 200g,Grocery,2,340,5,Chennai,Debit Card,Completed
+ORD1391,2026-09-21 12:38:04,C1213,P030,Rice Bag 5kg,Grocery,1,450,0,Coimbatore,UPI,Completed
+ORD1392,2026-09-21 12:38:15,C1276,P038,Phone Case,Accessories,2,299,10,Trichy,Cash on Delivery,Completed
+ORD1393,2026-09-21 12:38:23,C1273,P013,Cookware Set,Home & Kitchen,1,2799,20,Bengaluru,UPI,Completed
+ORD1394,2026-09-21 12:38:32,C1185,P012,Mixer Grinder,Home & Kitchen,1,3299,15,Erode,Cash on Delivery,Completed
+ORD1395,2026-09-21 12:39:12,C1098,P039,Power Bank,Accessories,1,1499,50,Trichy,Cash on Delivery,Completed
+ORD1396,2026-09-21 12:39:17,C1205,P015,Electric Kettle,Home & Kitchen,3,1199,20,Tirunelveli,UPI,Completed
+ORD1397,2026-09-21 12:39:55,C1172,P016,Bedsheet Set,Home & Kitchen,1,899,10,Hyderabad,UPI,Completed
+ORD1398,2026-09-21 12:40:02,C1273,P004,Wireless Headphones,Electronics,3,1499,30,Madurai,UPI,Completed
+ORD1399,2026-09-21 12:40:50,C1067,P022,Yoga Mat,Sports,4,699,20,Madurai,Debit Card,Completed
+ORD1400,2026-09-21 12:42:19,C1286,P036,Mouse,Accessories,4,499,15,Chennai,Debit Card,Completed
+ORD1401,2026-09-21 12:42:40,C1182,P030,Rice Bag 5kg,Grocery,1,450,40,Salem,Credit Card,Completed
+ORD1402,2026-09-21 12:43:46,C1016,P021,Cricket Bat,Sports,2,2199,15,Coimbatore,Credit Card,Completed
+ORD1403,2026-09-21 12:44:53,C1114,P036,Mouse,Accessories,1,499,0,Coimbatore,Credit Card,Completed
+ORD1404,2026-09-21 12:44:55,C1096,P006,Bluetooth Speaker,Electronics,1,2499,15,Madurai,UPI,Completed
+ORD1405,2026-09-21 12:44:57,C1050,P012,Mixer Grinder,Home & Kitchen,2,3299,0,Chennai,UPI,Completed
+ORD1406,2026-09-21 12:44:58,C1152,P013,Cookware Set,Home & Kitchen,1,2799,10,Salem,UPI,Completed
+ORD1407,2026-09-21 12:45:38,C1064,P017,Face Wash,Beauty,2,249,10,Bengaluru,Debit Card,Completed
+ORD1408,2026-09-21 12:45:39,C1284,P012,Mixer Grinder,Home & Kitchen,2,3299,15,Madurai,Net Banking,Completed
+ORD1409,2026-09-21 12:45:45,C1046,P021,Cricket Bat,Sports,3,2199,30,Madurai,Credit Card,Completed
+ORD1410,2026-09-21 12:45:55,C1161,P030,Rice Bag 5kg,Grocery,1,450,0,Bengaluru,Credit Card,Cancelled
+ORD1411,2026-09-21 12:46:02,C1244,P015,Electric Kettle,Home & Kitchen,2,1199,20,Bengaluru,Credit Card,Completed
+ORD1412,2026-09-21 12:46:17,C1122,P021,Cricket Bat,Sports,1,2199,0,Erode,Credit Card,Completed
+ORD1413,2026-09-21 12:46:36,C1284,P004,Wireless Headphones,Electronics,3,1499,5,Salem,Debit Card,Completed
+ORD1414,2026-09-21 12:46:49,C1142,P016,Bedsheet Set,Home & Kitchen,2,899,10,Mumbai,UPI,Completed
+ORD1415,2026-09-21 12:47:08,C1204,P034,Snack Combo Pack,Grocery,3,199,5,Erode,Credit Card,Completed
+ORD1416,2026-09-21 12:47:31,C1026,P028,Self-Help Book,Books,4,299,10,Madurai,Credit Card,Completed
+ORD1417,2026-09-21 12:47:36,C1286,P025,Badminton Racket,Sports,1,1099,40,Chennai,UPI,Completed
+ORD1418,2026-09-21 12:48:52,C1130,P032,Tea Powder 500g,Grocery,1,260,15,Chennai,Cash on Delivery,Cancelled
+ORD1419,2026-09-21 12:49:16,C1219,P037,Backpack,Accessories,1,1299,0,Chennai,Credit Card,Completed
+ORD1420,2026-09-21 12:49:19,C1071,P026,Novel,Books,2,349,5,Trichy,Cash on Delivery,Completed
+ORD1421,2026-09-21 12:49:20,C1150,P038,Phone Case,Accessories,5,299,5,Chennai,UPI,Returned
+ORD1422,2026-09-21 12:49:21,C1045,P016,Bedsheet Set,Home & Kitchen,1,899,5,Trichy,UPI,Completed
+ORD1423,2026-09-21 12:49:32,C1124,P034,Snack Combo Pack,Grocery,3,199,25,Chennai,Debit Card,Completed
+ORD1424,2026-09-21 12:49:42,C1132,P012,Mixer Grinder,Home & Kitchen,1,3299,10,Salem,Credit Card,Completed
+ORD1425,2026-09-21 12:49:45,C1325,P015,Electric Kettle,Home & Kitchen,3,1199,0,Mumbai,Debit Card,Completed
+ORD1426,2026-09-21 12:50:03,C1005,P004,Wireless Headphones,Electronics,2,1499,10,Coimbatore,Net Banking,Completed
+ORD1427,2026-09-21 12:50:25,C1142,P028,Self-Help Book,Books,1,299,20,Trichy,Credit Card,Completed
+ORD1428,2026-09-21 12:50:42,C1191,P023,Football,Sports,1,799,5,Chennai,Credit Card,Completed
+ORD1429,2026-09-21 12:51:02,C1083,P036,Mouse,Accessories,2,499,5,Trichy,UPI,Returned
+ORD1430,2026-09-21 12:51:23,C1246,P025,Badminton Racket,Sports,1,1099,10,Salem,UPI,Completed
+ORD1431,2026-09-21 12:51:35,C1343,P040,USB Cable,Accessories,3,199,10,Chennai,Cash on Delivery,Completed
+ORD1432,2026-09-21 12:51:50,C1258,P021,Cricket Bat,Sports,5,2199,0,Salem,Debit Card,Completed
+ORD1433,2026-09-21 12:52:07,C1120,P002,Smartphone,Electronics,3,24999,10,Madurai,Credit Card,Completed
+ORD1434,2026-09-21 12:52:14,C1338,P017,Face Wash,Beauty,3,249,0,Chennai,Cash on Delivery,Completed
+ORD1435,2026-09-21 12:52:37,C1196,P030,Rice Bag 5kg,Grocery,1,450,10,Chennai,UPI,Returned
+ORD1436,2026-09-21 12:52:44,C1214,P034,Snack Combo Pack,Grocery,1,199,0,Madurai,Cash on Delivery,Completed
+ORD1437,2026-09-21 12:53:22,C1098,P005,Smartwatch,Electronics,3,3999,0,Chennai,UPI,Completed
+ORD1438,2026-09-21 12:53:31,C1154,P006,Bluetooth Speaker,Electronics,3,2499,0,Tirunelveli,Credit Card,Completed
+ORD1439,2026-09-21 12:53:38,C1120,P036,Mouse,Accessories,1,499,0,Hyderabad,UPI,Completed
+ORD1440,2026-09-21 12:53:39,C1267,P040,USB Cable,Accessories,1,199,5,Salem,UPI,Completed
+ORD1441,2026-09-21 12:53:49,C1222,P013,Cookware Set,Home & Kitchen,3,2799,0,Chennai,UPI,Completed
+ORD1442,2026-09-21 12:54:01,C1263,P031,Cooking Oil 1L,Grocery,2,180,5,Tirunelveli,Credit Card,Completed
+ORD1443,2026-09-21 12:55:13,C1004,P036,Mouse,Accessories,4,499,5,Salem,Net Banking,Completed
+ORD1444,2026-09-21 12:55:40,C1321,P002,Smartphone,Electronics,2,24999,40,Coimbatore,Cash on Delivery,Completed
+ORD1445,2026-09-21 12:56:26,C1095,P013,Cookware Set,Home & Kitchen,1,2799,15,Coimbatore,Debit Card,Completed
+ORD1446,2026-09-21 12:56:31,C1204,P030,Rice Bag 5kg,Grocery,1,450,5,Salem,UPI,Completed
+ORD1447,2026-09-21 12:56:35,C1291,P028,Self-Help Book,Books,1,299,0,Chennai,Credit Card,Completed
+ORD1448,2026-09-21 12:56:40,C1069,P011,Jacket,Fashion,1,2999,0,Hyderabad,Debit Card,Completed
+ORD1449,2026-09-21 12:57:09,C1220,P038,Phone Case,Accessories,2,299,0,Bengaluru,UPI,Completed
+ORD1450,2026-09-21 12:57:11,C1197,P037,Backpack,Accessories,5,1299,30,Salem,UPI,Completed
+ORD1451,2026-09-21 12:57:30,C1220,P038,Phone Case,Accessories,4,299,0,Coimbatore,Cash on Delivery,Completed
+ORD1452,2026-09-21 12:57:39,C1056,P012,Mixer Grinder,Home & Kitchen,1,3299,20,Coimbatore,UPI,Completed
+ORD1453,2026-09-21 12:57:41,C1093,P038,Phone Case,Accessories,1,299,10,Hyderabad,Credit Card,Completed
+ORD1454,2026-09-21 12:58:29,C1051,P022,Yoga Mat,Sports,3,699,0,Salem,Cash on Delivery,Completed
+ORD1455,2026-09-21 12:58:39,C1025,P004,Wireless Headphones,Electronics,2,1499,0,Madurai,Cash on Delivery,Completed
+ORD1456,2026-09-21 12:59:09,C1328,P027,Notebook,Books,2,120,0,Tirunelveli,Cash on Delivery,Completed
+ORD1457,2026-09-21 12:59:18,C1330,P023,Football,Sports,1,799,5,Bengaluru,Debit Card,Completed
+ORD1458,2026-09-21 12:59:24,C1002,P024,Dumbbell Set,Sports,4,1899,25,Madurai,Credit Card,Cancelled
+ORD1459,2026-09-21 13:00:13,C1235,P014,Water Bottle,Home & Kitchen,1,399,15,Hyderabad,UPI,Completed
+ORD1460,2026-09-21 13:02:29,C1028,P038,Phone Case,Accessories,1,299,20,Salem,UPI,Completed
+ORD1461,2026-09-21 13:03:50,C1068,P015,Electric Kettle,Home & Kitchen,2,1199,30,Salem,UPI,Completed
+ORD1462,2026-09-21 13:04:15,C1257,P027,Notebook,Books,1,120,0,Tirunelveli,Credit Card,Completed
+ORD1463,2026-09-21 13:04:23,C1188,P003,Tablet,Electronics,1,18999,10,Bengaluru,Credit Card,Returned
+ORD1464,2026-09-21 13:05:08,C1019,P002,Smartphone,Electronics,3,24999,0,Chennai,Cash on Delivery,Completed
+ORD1465,2026-09-21 13:05:28,C1232,P020,Hair Dryer,Beauty,3,1599,0,Trichy,Cash on Delivery,Completed
+ORD1466,2026-09-21 13:06:00,C1225,P006,Bluetooth Speaker,Electronics,1,2499,30,Chennai,Debit Card,Completed
+ORD1467,2026-09-21 13:06:20,C1018,P007,T-Shirt,Fashion,1,599,20,Madurai,UPI,Completed
+ORD1468,2026-09-21 13:06:25,C1037,P034,Snack Combo Pack,Grocery,1,199,20,Chennai,Cash on Delivery,Completed
+ORD1469,2026-09-21 13:07:20,C1343,P034,Snack Combo Pack,Grocery,2,199,5,Mumbai,Credit Card,Completed
+ORD1470,2026-09-21 13:07:39,C1275,P035,Keyboard,Accessories,3,899,10,Coimbatore,UPI,Completed
+ORD1471,2026-09-21 13:07:57,C1242,P016,Bedsheet Set,Home & Kitchen,2,899,5,Hyderabad,UPI,Completed
+ORD1472,2026-09-21 13:08:22,C1212,P036,Mouse,Accessories,3,499,0,Madurai,UPI,Completed
+ORD1473,2026-09-21 13:10:16,C1224,P004,Wireless Headphones,Electronics,4,1499,5,Bengaluru,Debit Card,Completed
+ORD1474,2026-09-21 13:10:53,C1220,P007,T-Shirt,Fashion,2,599,5,Hyderabad,Credit Card,Completed
+ORD1475,2026-09-21 13:11:33,C1172,P007,T-Shirt,Fashion,4,599,15,Erode,UPI,Completed
+ORD1476,2026-09-21 13:12:21,C1042,P009,Shoes,Fashion,2,2499,0,Coimbatore,Debit Card,Completed
+ORD1477,2026-09-21 13:12:25,C1267,P008,Jeans,Fashion,2,1499,0,Chennai,Debit Card,Completed
+ORD1478,2026-09-21 13:12:26,C1164,P039,Power Bank,Accessories,1,1499,15,Chennai,Debit Card,Completed
+ORD1479,2026-09-21 13:12:30,C1117,P018,Moisturizer,Beauty,3,399,20,Chennai,Debit Card,Cancelled
+ORD1480,2026-09-21 13:13:00,C1274,P007,T-Shirt,Fashion,1,599,0,Bengaluru,Debit Card,Completed
+ORD1481,2026-09-21 13:13:18,C1072,P012,Mixer Grinder,Home & Kitchen,2,3299,5,Erode,UPI,Completed
+ORD1482,2026-09-21 13:14:05,C1305,P031,Cooking Oil 1L,Grocery,1,180,0,Madurai,Credit Card,Cancelled
+ORD1483,2026-09-21 13:14:40,C1327,P006,Bluetooth Speaker,Electronics,1,2499,5,Chennai,Debit Card,Completed
+ORD1484,2026-09-21 13:16:06,C1072,P039,Power Bank,Accessories,1,1499,15,Chennai,UPI,Completed
+ORD1485,2026-09-21 13:17:17,C1060,P020,Hair Dryer,Beauty,1,1599,30,Trichy,Debit Card,Completed
+ORD1486,2026-09-21 13:19:08,C1059,P027,Notebook,Books,5,120,25,Chennai,Cash on Delivery,Completed
+ORD1487,2026-09-21 13:19:54,C1204,P040,USB Cable,Accessories,3,199,0,Tirunelveli,Debit Card,Completed
+ORD1488,2026-09-21 13:20:17,C1199,P012,Mixer Grinder,Home & Kitchen,4,3299,10,Chennai,Credit Card,Completed
+ORD1489,2026-09-21 13:20:35,C1013,P039,Power Bank,Accessories,1,1499,20,Chennai,Credit Card,Completed
+ORD1490,2026-09-21 13:20:53,C1285,P034,Snack Combo Pack,Grocery,1,199,0,Trichy,UPI,Completed
+ORD1491,2026-09-21 13:21:34,C1046,P038,Phone Case,Accessories,1,299,15,Chennai,Credit Card,Completed
+ORD1492,2026-09-21 13:21:35,C1300,P029,Programming Book,Books,2,799,0,Madurai,Debit Card,Cancelled
+ORD1493,2026-09-21 13:23:34,C1274,P016,Bedsheet Set,Home & Kitchen,1,899,10,Salem,Cash on Delivery,Completed
+ORD1494,2026-09-21 13:23:37,C1117,P037,Backpack,Accessories,1,1299,5,Chennai,Cash on Delivery,Completed
+ORD1495,2026-09-21 13:24:17,C1274,P034,Snack Combo Pack,Grocery,1,199,30,Tirunelveli,UPI,Returned
+ORD1496,2026-09-21 13:24:19,C1311,P028,Self-Help Book,Books,1,299,5,Trichy,UPI,Completed
+ORD1497,2026-09-21 13:27:18,C1024,P025,Badminton Racket,Sports,2,1099,0,Mumbai,UPI,Completed
+ORD1498,2026-09-21 13:27:27,C1330,P021,Cricket Bat,Sports,2,2199,40,Chennai,Debit Card,Completed
+ORD1499,2026-09-21 13:27:59,C1095,P013,Cookware Set,Home & Kitchen,2,2799,0,Chennai,UPI,Completed
+ORD1500,2026-09-21 13:29:06,C1043,P023,Football,Sports,2,799,15,Madurai,UPI,Completed
+ORD1501,2026-09-21 13:30:05,C1333,P034,Snack Combo Pack,Grocery,3,199,40,Chennai,Cash on Delivery,Completed
+ORD1502,2026-09-21 13:30:41,C1315,P004,Wireless Headphones,Electronics,1,1499,40,Chennai,UPI,Completed
+ORD1503,2026-09-21 13:33:26,C1307,P022,Yoga Mat,Sports,2,699,15,Chennai,Net Banking,Completed
+ORD1504,2026-09-21 13:33:57,C1122,P005,Smartwatch,Electronics,1,3999,15,Chennai,UPI,Cancelled
+ORD1505,2026-09-21 13:34:01,C1333,P009,Shoes,Fashion,2,2499,5,Coimbatore,Debit Card,Completed
+ORD1506,2026-09-21 13:34:06,C1242,P027,Notebook,Books,3,120,5,Coimbatore,UPI,Completed
+ORD1507,2026-09-21 13:35:08,C1090,P007,T-Shirt,Fashion,1,599,50,Erode,UPI,Completed
+ORD1508,2026-09-21 13:35:09,C1058,P020,Hair Dryer,Beauty,4,1599,20,Chennai,Net Banking,Completed
+ORD1509,2026-09-21 13:35:14,C1228,P029,Programming Book,Books,1,799,0,Chennai,UPI,Completed
+ORD1510,2026-09-21 13:35:18,C1066,P010,Kurta,Fashion,2,999,0,Coimbatore,UPI,Completed
+ORD1511,2026-09-21 13:35:21,C1057,P024,Dumbbell Set,Sports,1,1899,30,Coimbatore,Credit Card,Completed
+ORD1512,2026-09-21 13:35:57,C1114,P020,Hair Dryer,Beauty,1,1599,20,Mumbai,UPI,Completed
+ORD1513,2026-09-21 13:36:07,C1100,P021,Cricket Bat,Sports,4,2199,50,Trichy,UPI,Completed
+ORD1514,2026-09-21 13:36:58,C1151,P038,Phone Case,Accessories,2,299,20,Hyderabad,UPI,Completed
+ORD1515,2026-09-21 13:37:41,C1137,P012,Mixer Grinder,Home & Kitchen,3,3299,5,Chennai,UPI,Completed
+ORD1516,2026-09-21 13:38:22,C1077,P026,Novel,Books,4,349,0,Chennai,Credit Card,Completed
+ORD1517,2026-09-21 13:39:01,C1029,P028,Self-Help Book,Books,2,299,0,Coimbatore,Credit Card,Returned
+ORD1518,2026-09-21 13:39:23,C1124,P038,Phone Case,Accessories,1,299,25,Coimbatore,UPI,Completed
+ORD1519,2026-09-21 13:40:12,C1341,P013,Cookware Set,Home & Kitchen,3,2799,0,Tirunelveli,Credit Card,Returned
+ORD1520,2026-09-21 13:41:43,C1100,P034,Snack Combo Pack,Grocery,3,199,50,Coimbatore,Cash on Delivery,Completed
+ORD1521,2026-09-21 13:41:49,C1029,P027,Notebook,Books,1,120,10,Bengaluru,Net Banking,Completed
+ORD1522,2026-09-21 13:42:28,C1264,P038,Phone Case,Accessories,1,299,5,Hyderabad,UPI,Completed
+ORD1523,2026-09-21 13:43:17,C1263,P030,Rice Bag 5kg,Grocery,1,450,0,Coimbatore,Credit Card,Completed
+ORD1524,2026-09-21 13:43:53,C1292,P035,Keyboard,Accessories,1,899,10,Madurai,UPI,Completed
+ORD1525,2026-09-21 13:44:21,C1336,P010,Kurta,Fashion,3,999,10,Salem,Cash on Delivery,Completed
+ORD1526,2026-09-21 13:45:24,C1238,P022,Yoga Mat,Sports,1,699,0,Chennai,Net Banking,Completed
+ORD1527,2026-09-21 13:46:06,C1200,P031,Cooking Oil 1L,Grocery,2,180,25,Trichy,Credit Card,Completed
+ORD1528,2026-09-21 13:46:38,C1177,P004,Wireless Headphones,Electronics,2,1499,25,Chennai,UPI,Completed
+ORD1529,2026-09-21 13:47:00,C1047,P036,Mouse,Accessories,1,499,0,Coimbatore,Cash on Delivery,Completed
+ORD1530,2026-09-21 13:47:21,C1183,P011,Jacket,Fashion,4,2999,10,Erode,UPI,Completed
+ORD1531,2026-09-21 13:47:41,C1189,P031,Cooking Oil 1L,Grocery,3,180,25,Salem,UPI,Completed
+ORD1532,2026-09-21 13:47:55,C1031,P029,Programming Book,Books,2,799,25,Chennai,Credit Card,Completed
+ORD1533,2026-09-21 13:48:06,C1119,P022,Yoga Mat,Sports,4,699,0,Chennai,UPI,Completed
+ORD1534,2026-09-21 13:48:52,C1212,P037,Backpack,Accessories,3,1299,10,Madurai,Credit Card,Completed
+ORD1535,2026-09-21 13:48:55,C1160,P004,Wireless Headphones,Electronics,1,1499,25,Hyderabad,Credit Card,Completed
+ORD1536,2026-09-21 13:49:17,C1284,P014,Water Bottle,Home & Kitchen,4,399,10,Erode,UPI,Completed
+ORD1537,2026-09-21 13:49:35,C1282,P002,Smartphone,Electronics,1,24999,25,Chennai,UPI,Completed
+ORD1538,2026-09-21 13:49:37,C1026,P005,Smartwatch,Electronics,2,3999,20,Chennai,Debit Card,Completed
+ORD1539,2026-09-21 13:50:09,C1038,P002,Smartphone,Electronics,3,24999,10,Chennai,UPI,Completed
+ORD1540,2026-09-21 13:50:30,C1229,P004,Wireless Headphones,Electronics,3,1499,20,Hyderabad,UPI,Cancelled
+ORD1541,2026-09-21 13:52:23,C1122,P007,T-Shirt,Fashion,1,599,25,Hyderabad,Cash on Delivery,Completed
+ORD1542,2026-09-21 13:54:02,C1173,P007,T-Shirt,Fashion,2,599,0,Trichy,UPI,Completed
+ORD1543,2026-09-21 13:54:04,C1075,P002,Smartphone,Electronics,1,24999,0,Hyderabad,Credit Card,Returned
+ORD1544,2026-09-21 13:54:08,C1074,P004,Wireless Headphones,Electronics,2,1499,20,Coimbatore,Credit Card,Completed
+ORD1545,2026-09-21 13:54:14,C1065,P038,Phone Case,Accessories,1,299,5,Chennai,UPI,Completed
+ORD1546,2026-09-21 13:55:29,C1044,P040,USB Cable,Accessories,1,199,0,Erode,Debit Card,Completed
+ORD1547,2026-09-21 13:56:01,C1116,P002,Smartphone,Electronics,1,24999,0,Trichy,UPI,Returned
+ORD1548,2026-09-21 13:56:14,C1193,P019,Perfume,Beauty,1,1299,25,Chennai,UPI,Completed
+ORD1549,2026-09-21 13:56:36,C1233,P021,Cricket Bat,Sports,1,2199,50,Madurai,UPI,Completed
+ORD1550,2026-09-21 13:57:34,C1029,P028,Self-Help Book,Books,1,299,5,Trichy,UPI,Cancelled
+ORD1551,2026-09-21 13:58:18,C1024,P039,Power Bank,Accessories,5,1499,5,Trichy,Net Banking,Completed
+ORD1552,2026-09-21 13:58:55,C1255,P036,Mouse,Accessories,1,499,20,Trichy,UPI,Completed
+ORD1553,2026-09-21 13:59:42,C1137,P028,Self-Help Book,Books,1,299,15,Coimbatore,Credit Card,Completed
+ORD1554,2026-09-21 13:59:43,C1038,P032,Tea Powder 500g,Grocery,1,260,10,Trichy,UPI,Completed
+ORD1555,2026-09-21 14:01:24,C1024,P002,Smartphone,Electronics,2,24999,50,Coimbatore,Debit Card,Completed
+ORD1556,2026-09-21 14:01:32,C1032,P027,Notebook,Books,1,120,20,Erode,Debit Card,Completed
+ORD1557,2026-09-21 14:02:14,C1170,P028,Self-Help Book,Books,1,299,5,Bengaluru,Credit Card,Returned
+ORD1558,2026-09-21 14:02:22,C1148,P002,Smartphone,Electronics,4,24999,5,Coimbatore,UPI,Completed
+ORD1559,2026-09-21 14:02:25,C1194,P002,Smartphone,Electronics,3,24999,5,Tirunelveli,Credit Card,Completed
+ORD1560,2026-09-21 14:02:43,C1170,P030,Rice Bag 5kg,Grocery,1,450,15,Salem,Debit Card,Completed
+ORD1561,2026-09-21 14:02:49,C1299,P021,Cricket Bat,Sports,2,2199,5,Madurai,Net Banking,Completed
+ORD1562,2026-09-21 14:03:04,C1341,P013,Cookware Set,Home & Kitchen,1,2799,0,Chennai,Cash on Delivery,Completed
+ORD1563,2026-09-21 14:03:40,C1008,P031,Cooking Oil 1L,Grocery,4,180,5,Chennai,UPI,Completed
+ORD1564,2026-09-21 14:03:46,C1227,P013,Cookware Set,Home & Kitchen,1,2799,15,Trichy,Cash on Delivery,Completed
+ORD1565,2026-09-21 14:03:48,C1118,P012,Mixer Grinder,Home & Kitchen,1,3299,5,Madurai,Cash on Delivery,Completed
+ORD1566,2026-09-21 14:04:11,C1095,P037,Backpack,Accessories,2,1299,10,Mumbai,UPI,Completed
+ORD1567,2026-09-21 14:04:48,C1279,P025,Badminton Racket,Sports,1,1099,15,Coimbatore,Credit Card,Completed
+ORD1568,2026-09-21 14:04:57,C1213,P013,Cookware Set,Home & Kitchen,1,2799,5,Madurai,Cash on Delivery,Completed
+ORD1569,2026-09-21 14:05:13,C1185,P036,Mouse,Accessories,1,499,0,Mumbai,UPI,Completed
+ORD1570,2026-09-21 14:05:58,C1030,P031,Cooking Oil 1L,Grocery,3,180,0,Coimbatore,UPI,Completed
+ORD1571,2026-09-21 14:06:27,C1073,P021,Cricket Bat,Sports,3,2199,15,Coimbatore,Cash on Delivery,Completed
+ORD1572,2026-09-21 14:06:36,C1072,P024,Dumbbell Set,Sports,1,1899,15,Madurai,Debit Card,Completed
+ORD1573,2026-09-21 14:06:38,C1246,P002,Smartphone,Electronics,3,24999,10,Chennai,Net Banking,Completed
+ORD1574,2026-09-21 14:08:34,C1329,P021,Cricket Bat,Sports,2,2199,15,Erode,Credit Card,Completed
+ORD1575,2026-09-21 14:09:31,C1182,P027,Notebook,Books,1,120,0,Chennai,Debit Card,Completed
+ORD1576,2026-09-21 14:09:36,C1113,P018,Moisturizer,Beauty,3,399,0,Chennai,UPI,Completed
+ORD1577,2026-09-21 14:09:58,C1089,P028,Self-Help Book,Books,2,299,5,Chennai,UPI,Completed
+ORD1578,2026-09-21 14:10:28,C1161,P035,Keyboard,Accessories,2,899,5,Salem,UPI,Completed
+ORD1579,2026-09-21 14:11:00,C1090,P005,Smartwatch,Electronics,3,3999,15,Chennai,Cash on Delivery,Returned
+ORD1580,2026-09-21 14:11:17,C1007,P022,Yoga Mat,Sports,3,699,0,Trichy,Cash on Delivery,Cancelled
+ORD1581,2026-09-21 14:12:11,C1126,P016,Bedsheet Set,Home & Kitchen,2,899,0,Hyderabad,Debit Card,Completed
+ORD1582,2026-09-21 14:12:35,C1257,P004,Wireless Headphones,Electronics,4,1499,10,Bengaluru,Cash on Delivery,Cancelled
+ORD1583,2026-09-21 14:12:37,C1310,P009,Shoes,Fashion,1,2499,0,Bengaluru,UPI,Completed
+ORD1584,2026-09-21 14:12:57,C1262,P015,Electric Kettle,Home & Kitchen,1,1199,5,Chennai,UPI,Returned
+ORD1585,2026-09-21 14:13:10,C1089,P018,Moisturizer,Beauty,2,399,10,Coimbatore,Cash on Delivery,Completed
+ORD1586,2026-09-21 14:15:25,C1235,P017,Face Wash,Beauty,5,249,30,Hyderabad,UPI,Completed
+ORD1587,2026-09-21 14:17:22,C1007,P035,Keyboard,Accessories,5,899,15,Bengaluru,Debit Card,Returned
+ORD1588,2026-09-21 14:18:08,C1274,P029,Programming Book,Books,1,799,10,Coimbatore,Net Banking,Completed
+ORD1589,2026-09-21 14:18:30,C1043,P034,Snack Combo Pack,Grocery,3,199,25,Coimbatore,Cash on Delivery,Completed
+ORD1590,2026-09-21 14:18:52,C1089,P039,Power Bank,Accessories,1,1499,25,Chennai,UPI,Cancelled
+ORD1591,2026-09-21 14:18:55,C1217,P038,Phone Case,Accessories,3,299,20,Coimbatore,UPI,Cancelled
+ORD1592,2026-09-21 14:19:49,C1331,P035,Keyboard,Accessories,1,899,5,Bengaluru,Debit Card,Cancelled
+ORD1593,2026-09-21 14:20:49,C1287,P034,Snack Combo Pack,Grocery,2,199,10,Coimbatore,Credit Card,Completed
+ORD1594,2026-09-21 14:20:55,C1158,P031,Cooking Oil 1L,Grocery,1,180,0,Salem,Debit Card,Completed
+ORD1595,2026-09-21 14:21:03,C1137,P005,Smartwatch,Electronics,2,3999,5,Chennai,UPI,Completed
+ORD1596,2026-09-21 14:21:20,C1290,P039,Power Bank,Accessories,3,1499,25,Salem,Debit Card,Completed
+ORD1597,2026-09-21 14:22:01,C1257,P021,Cricket Bat,Sports,1,2199,15,Bengaluru,Debit Card,Completed
+ORD1598,2026-09-21 14:22:05,C1065,P016,Bedsheet Set,Home & Kitchen,3,899,40,Bengaluru,UPI,Returned
+ORD1599,2026-09-21 14:22:12,C1223,P038,Phone Case,Accessories,2,299,30,Mumbai,UPI,Completed
+ORD1600,2026-09-21 14:23:08,C1137,P007,T-Shirt,Fashion,1,599,0,Chennai,UPI,Returned
+ORD1601,2026-09-21 14:23:26,C1254,P004,Wireless Headphones,Electronics,1,1499,30,Madurai,Debit Card,Completed
+ORD1602,2026-09-21 14:23:50,C1067,P030,Rice Bag 5kg,Grocery,3,450,20,Chennai,Credit Card,Completed
+ORD1603,2026-09-21 14:24:24,C1208,P036,Mouse,Accessories,5,499,0,Salem,UPI,Completed
+ORD1604,2026-09-21 14:25:49,C1100,P006,Bluetooth Speaker,Electronics,1,2499,15,Hyderabad,UPI,Completed
+ORD1605,2026-09-21 14:28:41,C1004,P020,Hair Dryer,Beauty,1,1599,5,Salem,Debit Card,Completed
+ORD1606,2026-09-21 14:31:02,C1257,P030,Rice Bag 5kg,Grocery,1,450,0,Chennai,UPI,Completed
+ORD1607,2026-09-21 14:31:13,C1349,P038,Phone Case,Accessories,4,299,40,Trichy,Debit Card,Completed
+ORD1608,2026-09-21 14:31:32,C1213,P010,Kurta,Fashion,1,999,5,Coimbatore,Net Banking,Completed
+ORD1609,2026-09-21 14:31:49,C1091,P026,Novel,Books,2,349,40,Bengaluru,UPI,Completed
+ORD1610,2026-09-21 14:31:50,C1050,P023,Football,Sports,1,799,0,Chennai,Cash on Delivery,Completed
+ORD1611,2026-09-21 14:31:51,C1326,P031,Cooking Oil 1L,Grocery,1,180,30,Trichy,Debit Card,Completed
+ORD1612,2026-09-21 14:31:57,C1313,P012,Mixer Grinder,Home & Kitchen,1,3299,50,Erode,UPI,Completed
+ORD1613,2026-09-21 14:33:12,C1276,P028,Self-Help Book,Books,1,299,0,Chennai,UPI,Completed
+ORD1614,2026-09-21 14:33:30,C1150,P029,Programming Book,Books,5,799,30,Chennai,UPI,Completed
+ORD1615,2026-09-21 14:33:47,C1171,P022,Yoga Mat,Sports,3,699,25,Chennai,UPI,Cancelled
+ORD1616,2026-09-21 14:34:13,C1058,P007,T-Shirt,Fashion,2,599,0,Bengaluru,Credit Card,Completed
+ORD1617,2026-09-21 14:34:27,C1182,P039,Power Bank,Accessories,2,1499,5,Chennai,Debit Card,Completed
+ORD1618,2026-09-21 14:34:31,C1008,P036,Mouse,Accessories,2,499,15,Coimbatore,Credit Card,Returned
+ORD1619,2026-09-21 14:34:44,C1054,P035,Keyboard,Accessories,1,899,25,Salem,Credit Card,Returned
+ORD1620,2026-09-21 14:34:55,C1003,P027,Notebook,Books,5,120,15,Hyderabad,UPI,Completed
+ORD1621,2026-09-21 14:35:31,C1336,P030,Rice Bag 5kg,Grocery,2,450,0,Chennai,Debit Card,Completed
+ORD1622,2026-09-21 14:35:32,C1024,P002,Smartphone,Electronics,4,24999,5,Coimbatore,UPI,Returned
+ORD1623,2026-09-21 14:35:33,C1030,P036,Mouse,Accessories,3,499,0,Erode,UPI,Completed
+ORD1624,2026-09-21 14:37:07,C1042,P028,Self-Help Book,Books,1,299,5,Bengaluru,UPI,Completed
+ORD1625,2026-09-21 14:37:25,C1228,P005,Smartwatch,Electronics,3,3999,10,Madurai,Cash on Delivery,Completed
+ORD1626,2026-09-21 14:38:15,C1145,P025,Badminton Racket,Sports,3,1099,25,Trichy,Credit Card,Completed
+ORD1627,2026-09-21 14:38:44,C1119,P002,Smartphone,Electronics,1,24999,0,Salem,UPI,Completed
+ORD1628,2026-09-21 14:38:45,C1182,P027,Notebook,Books,1,120,5,Hyderabad,Credit Card,Completed
+ORD1629,2026-09-21 14:38:53,C1316,P005,Smartwatch,Electronics,3,3999,10,Chennai,UPI,Completed
+ORD1630,2026-09-21 14:39:09,C1038,P002,Smartphone,Electronics,1,24999,0,Salem,Credit Card,Completed
+ORD1631,2026-09-21 14:39:14,C1028,P010,Kurta,Fashion,2,999,0,Salem,UPI,Completed
+ORD1632,2026-09-21 14:40:20,C1029,P015,Electric Kettle,Home & Kitchen,3,1199,0,Trichy,Credit Card,Completed
+ORD1633,2026-09-21 14:40:23,C1094,P027,Notebook,Books,5,120,30,Chennai,UPI,Completed
+ORD1634,2026-09-21 14:40:44,C1306,P027,Notebook,Books,1,120,10,Chennai,UPI,Completed
+ORD1635,2026-09-21 14:40:51,C1239,P021,Cricket Bat,Sports,3,2199,40,Trichy,Credit Card,Completed
+ORD1636,2026-09-21 14:41:12,C1124,P039,Power Bank,Accessories,2,1499,15,Coimbatore,UPI,Completed
+ORD1637,2026-09-21 14:41:36,C1040,P002,Smartphone,Electronics,1,24999,50,Bengaluru,UPI,Completed
+ORD1638,2026-09-21 14:41:52,C1150,P028,Self-Help Book,Books,2,299,20,Chennai,UPI,Completed
+ORD1639,2026-09-21 14:41:59,C1007,P021,Cricket Bat,Sports,1,2199,0,Tirunelveli,Net Banking,Completed
+ORD1640,2026-09-21 14:42:23,C1202,P036,Mouse,Accessories,1,499,10,Bengaluru,UPI,Completed
+ORD1641,2026-09-21 14:44:20,C1252,P027,Notebook,Books,5,120,25,Tirunelveli,Credit Card,Completed
+ORD1642,2026-09-21 14:44:21,C1170,P011,Jacket,Fashion,1,2999,10,Trichy,Debit Card,Completed
+ORD1643,2026-09-21 14:44:35,C1252,P022,Yoga Mat,Sports,2,699,5,Coimbatore,UPI,Cancelled
+ORD1644,2026-09-21 14:44:37,C1164,P016,Bedsheet Set,Home & Kitchen,1,899,40,Coimbatore,Debit Card,Completed
+ORD1645,2026-09-21 14:44:45,C1068,P011,Jacket,Fashion,1,2999,0,Chennai,Cash on Delivery,Completed
+ORD1646,2026-09-21 14:44:49,C1296,P027,Notebook,Books,2,120,0,Chennai,Debit Card,Returned
+ORD1647,2026-09-21 14:44:52,C1230,P035,Keyboard,Accessories,2,899,20,Erode,Cash on Delivery,Completed
+ORD1648,2026-09-21 14:45:23,C1263,P011,Jacket,Fashion,2,2999,0,Chennai,Credit Card,Completed
+ORD1649,2026-09-21 14:45:38,C1348,P016,Bedsheet Set,Home & Kitchen,1,899,0,Chennai,UPI,Cancelled
+ORD1650,2026-09-21 14:45:52,C1056,P013,Cookware Set,Home & Kitchen,3,2799,30,Chennai,UPI,Completed
+ORD1651,2026-09-21 14:46:33,C1042,P027,Notebook,Books,1,120,0,Coimbatore,UPI,Completed
+ORD1652,2026-09-21 14:46:51,C1095,P036,Mouse,Accessories,1,499,15,Madurai,Debit Card,Completed
+ORD1653,2026-09-21 14:46:54,C1151,P038,Phone Case,Accessories,1,299,25,Chennai,UPI,Completed
+ORD1654,2026-09-21 14:47:13,C1333,P033,Coffee Powder 200g,Grocery,3,340,0,Chennai,Debit Card,Cancelled
+ORD1655,2026-09-21 14:47:38,C1056,P038,Phone Case,Accessories,1,299,5,Madurai,Debit Card,Completed
+ORD1656,2026-09-21 14:47:40,C1117,P028,Self-Help Book,Books,1,299,25,Coimbatore,UPI,Completed
+ORD1657,2026-09-21 14:48:49,C1279,P009,Shoes,Fashion,1,2499,10,Chennai,UPI,Completed
+ORD1658,2026-09-21 14:49:16,C1228,P014,Water Bottle,Home & Kitchen,1,399,20,Coimbatore,UPI,Completed
+ORD1659,2026-09-21 14:49:21,C1141,P016,Bedsheet Set,Home & Kitchen,1,899,25,Erode,UPI,Completed
+ORD1660,2026-09-21 14:50:28,C1004,P006,Bluetooth Speaker,Electronics,3,2499,40,Chennai,UPI,Returned
+ORD1661,2026-09-21 14:51:14,C1022,P007,T-Shirt,Fashion,3,599,15,Salem,Cash on Delivery,Completed
+ORD1662,2026-09-21 14:51:36,C1252,P027,Notebook,Books,2,120,10,Chennai,UPI,Completed
+ORD1663,2026-09-21 14:51:47,C1107,P025,Badminton Racket,Sports,2,1099,30,Chennai,UPI,Completed
+ORD1664,2026-09-21 14:52:17,C1244,P038,Phone Case,Accessories,1,299,0,Trichy,Debit Card,Completed
+ORD1665,2026-09-21 14:52:27,C1311,P029,Programming Book,Books,3,799,5,Chennai,UPI,Completed
+ORD1666,2026-09-21 14:52:31,C1255,P013,Cookware Set,Home & Kitchen,2,2799,0,Mumbai,UPI,Completed
+ORD1667,2026-09-21 14:53:12,C1182,P025,Badminton Racket,Sports,3,1099,0,Chennai,Debit Card,Completed
+ORD1668,2026-09-21 14:53:15,C1268,P009,Shoes,Fashion,2,2499,50,Chennai,UPI,Completed
+ORD1669,2026-09-21 14:54:09,C1123,P027,Notebook,Books,1,120,15,Chennai,UPI,Completed
+ORD1670,2026-09-21 14:54:23,C1343,P020,Hair Dryer,Beauty,3,1599,50,Trichy,Cash on Delivery,Completed
+ORD1671,2026-09-21 14:54:24,C1205,P023,Football,Sports,1,799,0,Erode,Debit Card,Completed
+ORD1672,2026-09-21 14:54:35,C1181,P030,Rice Bag 5kg,Grocery,1,450,5,Trichy,Cash on Delivery,Completed
+ORD1673,2026-09-21 14:55:10,C1251,P004,Wireless Headphones,Electronics,3,1499,0,Chennai,Cash on Delivery,Completed
+ORD1674,2026-09-21 14:55:58,C1127,P019,Perfume,Beauty,2,1299,10,Madurai,UPI,Completed
+ORD1675,2026-09-21 14:56:41,C1145,P022,Yoga Mat,Sports,1,699,40,Madurai,Net Banking,Completed
+ORD1676,2026-09-21 14:56:51,C1045,P006,Bluetooth Speaker,Electronics,2,2499,0,Tirunelveli,Cash on Delivery,Completed
+ORD1677,2026-09-21 14:57:00,C1164,P008,Jeans,Fashion,2,1499,40,Coimbatore,Net Banking,Completed
+ORD1678,2026-09-21 14:57:01,C1042,P016,Bedsheet Set,Home & Kitchen,2,899,0,Chennai,UPI,Returned
+ORD1679,2026-09-21 14:57:08,C1170,P012,Mixer Grinder,Home & Kitchen,3,3299,0,Trichy,UPI,Cancelled
+ORD1680,2026-09-21 14:57:33,C1074,P036,Mouse,Accessories,3,499,10,Chennai,UPI,Cancelled
+ORD1681,2026-09-21 14:57:36,C1198,P016,Bedsheet Set,Home & Kitchen,2,899,30,Erode,Credit Card,Completed
+ORD1682,2026-09-21 14:57:50,C1265,P027,Notebook,Books,2,120,10,Madurai,Credit Card,Cancelled
+ORD1683,2026-09-21 14:58:25,C1277,P012,Mixer Grinder,Home & Kitchen,2,3299,5,Chennai,UPI,Completed
+ORD1684,2026-09-21 14:58:37,C1312,P038,Phone Case,Accessories,2,299,15,Bengaluru,Debit Card,Completed
+ORD1685,2026-09-21 14:59:24,C1248,P034,Snack Combo Pack,Grocery,2,199,0,Trichy,UPI,Completed
+ORD1686,2026-09-21 14:59:25,C1019,P026,Novel,Books,2,349,0,Madurai,Cash on Delivery,Completed
+ORD1687,2026-09-21 15:00:21,C1064,P038,Phone Case,Accessories,1,299,20,Chennai,Debit Card,Cancelled
+ORD1688,2026-09-21 15:00:32,C1278,P019,Perfume,Beauty,2,1299,5,Chennai,Cash on Delivery,Completed
+ORD1689,2026-09-21 15:00:37,C1142,P018,Moisturizer,Beauty,3,399,5,Chennai,UPI,Completed
+ORD1690,2026-09-21 15:00:42,C1051,P007,T-Shirt,Fashion,1,599,0,Coimbatore,UPI,Completed
+ORD1691,2026-09-21 15:01:01,C1116,P027,Notebook,Books,1,120,0,Coimbatore,UPI,Completed
+ORD1692,2026-09-21 15:01:11,C1129,P012,Mixer Grinder,Home & Kitchen,3,3299,0,Chennai,Debit Card,Completed
+ORD1693,2026-09-21 15:01:26,C1263,P022,Yoga Mat,Sports,1,699,0,Chennai,Credit Card,Completed
+ORD1694,2026-09-21 15:01:43,C1141,P022,Yoga Mat,Sports,1,699,30,Chennai,Net Banking,Completed
+ORD1695,2026-09-21 15:01:49,C1193,P009,Shoes,Fashion,3,2499,5,Coimbatore,UPI,Completed
+ORD1696,2026-09-21 15:01:51,C1339,P007,T-Shirt,Fashion,1,599,50,Erode,Credit Card,Completed
+ORD1697,2026-09-21 15:01:55,C1157,P038,Phone Case,Accessories,1,299,10,Bengaluru,UPI,Returned
+ORD1698,2026-09-21 15:02:09,C1328,P001,Laptop,Electronics,1,55000,10,Bengaluru,UPI,Completed
+ORD1699,2026-09-21 15:03:10,C1201,P027,Notebook,Books,2,120,0,Tirunelveli,Credit Card,Completed
+ORD1700,2026-09-21 15:03:40,C1043,P015,Electric Kettle,Home & Kitchen,1,1199,10,Chennai,Credit Card,Completed
+ORD1701,2026-09-21 15:03:41,C1113,P038,Phone Case,Accessories,2,299,5,Chennai,Debit Card,Completed
+ORD1702,2026-09-21 15:03:42,C1343,P009,Shoes,Fashion,1,2499,10,Trichy,UPI,Completed
+ORD1703,2026-09-21 15:03:51,C1002,P028,Self-Help Book,Books,1,299,30,Salem,UPI,Cancelled
+ORD1704,2026-09-21 15:03:59,C1265,P029,Programming Book,Books,2,799,20,Salem,UPI,Completed
+ORD1705,2026-09-21 15:04:00,C1230,P035,Keyboard,Accessories,2,899,5,Bengaluru,Cash on Delivery,Completed
+ORD1706,2026-09-21 15:04:02,C1266,P007,T-Shirt,Fashion,2,599,0,Madurai,Cash on Delivery,Completed
+ORD1707,2026-09-21 15:04:30,C1007,P009,Shoes,Fashion,1,2499,30,Coimbatore,UPI,Completed
+ORD1708,2026-09-21 15:04:38,C1254,P012,Mixer Grinder,Home & Kitchen,1,3299,10,Coimbatore,UPI,Cancelled
+ORD1709,2026-09-21 15:04:58,C1073,P029,Programming Book,Books,1,799,25,Coimbatore,Cash on Delivery,Completed
+ORD1710,2026-09-21 15:05:21,C1191,P022,Yoga Mat,Sports,2,699,10,Salem,Credit Card,Completed
+ORD1711,2026-09-21 15:05:34,C1024,P005,Smartwatch,Electronics,1,3999,10,Chennai,Credit Card,Completed
+ORD1712,2026-09-21 15:05:36,C1232,P007,T-Shirt,Fashion,5,599,15,Madurai,UPI,Completed
+ORD1713,2026-09-21 15:06:33,C1329,P020,Hair Dryer,Beauty,2,1599,40,Chennai,Cash on Delivery,Completed
+ORD1714,2026-09-21 15:06:34,C1096,P040,USB Cable,Accessories,2,199,10,Coimbatore,Debit Card,Cancelled
+ORD1715,2026-09-21 15:07:17,C1098,P009,Shoes,Fashion,1,2499,5,Chennai,UPI,Completed
+ORD1716,2026-09-21 15:07:24,C1008,P025,Badminton Racket,Sports,2,1099,50,Coimbatore,UPI,Completed
+ORD1717,2026-09-21 15:07:57,C1112,P007,T-Shirt,Fashion,2,599,0,Madurai,Cash on Delivery,Completed
+ORD1718,2026-09-21 15:07:58,C1117,P027,Notebook,Books,1,120,0,Chennai,UPI,Completed
+ORD1719,2026-09-21 15:08:04,C1276,P013,Cookware Set,Home & Kitchen,4,2799,20,Trichy,Debit Card,Completed
+ORD1720,2026-09-21 15:08:05,C1029,P026,Novel,Books,1,349,0,Coimbatore,Cash on Delivery,Completed
+ORD1721,2026-09-21 15:08:11,C1322,P005,Smartwatch,Electronics,1,3999,5,Trichy,UPI,Completed
+ORD1722,2026-09-21 15:08:22,C1102,P025,Badminton Racket,Sports,1,1099,0,Erode,UPI,Completed
+ORD1723,2026-09-21 15:08:33,C1004,P028,Self-Help Book,Books,1,299,20,Bengaluru,Credit Card,Completed
+ORD1724,2026-09-21 15:08:41,C1272,P038,Phone Case,Accessories,1,299,5,Chennai,UPI,Completed
+ORD1725,2026-09-21 15:09:04,C1274,P004,Wireless Headphones,Electronics,1,1499,10,Salem,UPI,Completed
+ORD1726,2026-09-21 15:09:35,C1152,P030,Rice Bag 5kg,Grocery,1,450,20,Chennai,UPI,Completed
+ORD1727,2026-09-21 15:09:36,C1263,P038,Phone Case,Accessories,1,299,30,Erode,UPI,Completed
+ORD1728,2026-09-21 15:09:47,C1127,P013,Cookware Set,Home & Kitchen,1,2799,10,Salem,UPI,Completed
+ORD1729,2026-09-21 15:09:50,C1300,P035,Keyboard,Accessories,1,899,0,Chennai,Cash on Delivery,Completed
+ORD1730,2026-09-21 15:09:52,C1229,P013,Cookware Set,Home & Kitchen,2,2799,50,Trichy,UPI,Completed
+ORD1731,2026-09-21 15:09:59,C1213,P039,Power Bank,Accessories,1,1499,0,Madurai,Debit Card,Completed
+ORD1732,2026-09-21 15:10:24,C1002,P008,Jeans,Fashion,1,1499,0,Trichy,UPI,Completed
+ORD1733,2026-09-21 15:10:35,C1117,P038,Phone Case,Accessories,2,299,0,Chennai,Net Banking,Completed
+ORD1734,2026-09-21 15:11:00,C1008,P004,Wireless Headphones,Electronics,1,1499,0,Chennai,Credit Card,Completed
+ORD1735,2026-09-21 15:11:19,C1008,P002,Smartphone,Electronics,1,24999,0,Bengaluru,Debit Card,Completed
+ORD1736,2026-09-21 15:11:39,C1064,P025,Badminton Racket,Sports,1,1099,25,Hyderabad,UPI,Completed
+ORD1737,2026-09-21 15:11:40,C1274,P015,Electric Kettle,Home & Kitchen,1,1199,40,Coimbatore,UPI,Completed
+ORD1738,2026-09-21 15:11:50,C1331,P028,Self-Help Book,Books,5,299,50,Bengaluru,Cash on Delivery,Completed
+ORD1739,2026-09-21 15:12:17,C1324,P006,Bluetooth Speaker,Electronics,3,2499,0,Coimbatore,UPI,Completed
+ORD1740,2026-09-21 15:12:18,C1085,P039,Power Bank,Accessories,1,1499,15,Chennai,Credit Card,Completed
+ORD1741,2026-09-21 15:12:40,C1019,P012,Mixer Grinder,Home & Kitchen,3,3299,30,Bengaluru,Net Banking,Cancelled
+ORD1742,2026-09-21 15:12:42,C1028,P008,Jeans,Fashion,1,1499,15,Chennai,Credit Card,Completed
+ORD1743,2026-09-21 15:13:02,C1176,P028,Self-Help Book,Books,1,299,10,Coimbatore,UPI,Completed
+ORD1744,2026-09-21 15:14:01,C1172,P030,Rice Bag 5kg,Grocery,1,450,5,Hyderabad,Credit Card,Completed
+ORD1745,2026-09-21 15:14:02,C1072,P008,Jeans,Fashion,3,1499,5,Coimbatore,Cash on Delivery,Completed
+ORD1746,2026-09-21 15:14:11,C1129,P038,Phone Case,Accessories,2,299,0,Chennai,Credit Card,Completed
+ORD1747,2026-09-21 15:14:12,C1161,P026,Novel,Books,2,349,5,Madurai,UPI,Completed
+ORD1748,2026-09-21 15:14:21,C1132,P012,Mixer Grinder,Home & Kitchen,1,3299,0,Salem,UPI,Completed
+ORD1749,2026-09-21 15:14:27,C1177,P036,Mouse,Accessories,2,499,20,Hyderabad,UPI,Completed
+ORD1750,2026-09-21 15:14:28,C1072,P002,Smartphone,Electronics,1,24999,5,Coimbatore,Cash on Delivery,Completed
+ORD1751,2026-09-21 15:14:42,C1247,P011,Jacket,Fashion,5,2999,50,Erode,Debit Card,Cancelled
+ORD1752,2026-09-21 15:14:44,C1105,P002,Smartphone,Electronics,3,24999,20,Coimbatore,UPI,Completed
+ORD1753,2026-09-21 15:15:08,C1163,P028,Self-Help Book,Books,2,299,20,Chennai,UPI,Completed
+ORD1754,2026-09-21 15:15:26,C1164,P031,Cooking Oil 1L,Grocery,2,180,20,Erode,Debit Card,Completed
+ORD1755,2026-09-21 15:17:37,C1112,P033,Coffee Powder 200g,Grocery,1,340,20,Salem,UPI,Completed
+ORD1756,2026-09-21 15:17:39,C1129,P025,Badminton Racket,Sports,2,1099,0,Hyderabad,UPI,Completed
+ORD1757,2026-09-21 15:17:40,C1119,P035,Keyboard,Accessories,1,899,15,Coimbatore,Debit Card,Completed
+ORD1758,2026-09-21 15:19:38,C1007,P012,Mixer Grinder,Home & Kitchen,3,3299,30,Chennai,Net Banking,Completed
+ORD1759,2026-09-21 15:20:46,C1209,P027,Notebook,Books,2,120,25,Mumbai,UPI,Completed
+ORD1760,2026-09-21 15:21:08,C1067,P024,Dumbbell Set,Sports,1,1899,10,Madurai,Cash on Delivery,Completed
+ORD1761,2026-09-21 15:21:23,C1192,P004,Wireless Headphones,Electronics,1,1499,15,Madurai,UPI,Completed
+ORD1762,2026-09-21 15:21:30,C1098,P039,Power Bank,Accessories,1,1499,15,Chennai,UPI,Completed
+ORD1763,2026-09-21 15:21:54,C1300,P007,T-Shirt,Fashion,1,599,0,Chennai,Credit Card,Completed
+ORD1764,2026-09-21 15:21:57,C1336,P004,Wireless Headphones,Electronics,3,1499,0,Chennai,Credit Card,Completed
+ORD1765,2026-09-21 15:22:02,C1209,P021,Cricket Bat,Sports,4,2199,10,Madurai,Debit Card,Completed
+ORD1766,2026-09-21 15:22:33,C1050,P002,Smartphone,Electronics,1,24999,5,Bengaluru,Credit Card,Cancelled
+ORD1767,2026-09-21 15:22:46,C1160,P036,Mouse,Accessories,2,499,20,Chennai,Cash on Delivery,Completed
+ORD1768,2026-09-21 15:23:02,C1251,P029,Programming Book,Books,1,799,15,Bengaluru,UPI,Completed
+ORD1769,2026-09-21 15:24:23,C1256,P037,Backpack,Accessories,1,1299,30,Chennai,Credit Card,Completed
+ORD1770,2026-09-21 15:25:06,C1084,P038,Phone Case,Accessories,3,299,0,Trichy,UPI,Cancelled
+ORD1771,2026-09-21 15:25:09,C1255,P029,Programming Book,Books,1,799,10,Mumbai,Credit Card,Returned
+ORD1772,2026-09-21 15:25:22,C1036,P004,Wireless Headphones,Electronics,3,1499,5,Madurai,UPI,Completed
+ORD1773,2026-09-21 15:25:32,C1025,P020,Hair Dryer,Beauty,2,1599,20,Coimbatore,Debit Card,Completed
+ORD1774,2026-09-21 15:25:34,C1004,P015,Electric Kettle,Home & Kitchen,1,1199,30,Coimbatore,Debit Card,Completed
+ORD1775,2026-09-21 15:25:35,C1190,P004,Wireless Headphones,Electronics,1,1499,40,Chennai,Cash on Delivery,Completed
+ORD1776,2026-09-21 15:25:49,C1006,P007,T-Shirt,Fashion,1,599,0,Madurai,UPI,Completed
+ORD1777,2026-09-21 15:26:24,C1232,P032,Tea Powder 500g,Grocery,1,260,5,Chennai,UPI,Completed
+ORD1778,2026-09-21 15:26:41,C1242,P008,Jeans,Fashion,3,1499,25,Salem,Debit Card,Cancelled
+ORD1779,2026-09-21 15:26:43,C1110,P015,Electric Kettle,Home & Kitchen,1,1199,0,Erode,Debit Card,Cancelled
+ORD1780,2026-09-21 15:27:23,C1084,P015,Electric Kettle,Home & Kitchen,1,1199,5,Mumbai,UPI,Completed
+ORD1781,2026-09-21 15:27:37,C1076,P028,Self-Help Book,Books,4,299,20,Bengaluru,UPI,Completed
+ORD1782,2026-09-21 15:27:40,C1038,P016,Bedsheet Set,Home & Kitchen,1,899,10,Chennai,UPI,Completed
+ORD1783,2026-09-21 15:27:45,C1042,P038,Phone Case,Accessories,1,299,5,Chennai,UPI,Completed
+ORD1784,2026-09-21 15:27:59,C1159,P015,Electric Kettle,Home & Kitchen,1,1199,25,Salem,UPI,Completed
+ORD1785,2026-09-21 15:28:00,C1106,P008,Jeans,Fashion,2,1499,50,Chennai,Credit Card,Returned
+ORD1786,2026-09-21 15:29:02,C1060,P036,Mouse,Accessories,4,499,10,Mumbai,Debit Card,Completed
+ORD1787,2026-09-21 15:29:21,C1240,P039,Power Bank,Accessories,1,1499,15,Bengaluru,UPI,Completed
+ORD1788,2026-09-21 15:29:22,C1117,P022,Yoga Mat,Sports,2,699,10,Coimbatore,Debit Card,Completed
+ORD1789,2026-09-21 15:29:39,C1345,P027,Notebook,Books,1,120,15,Bengaluru,UPI,Completed
+ORD1790,2026-09-21 15:29:42,C1213,P031,Cooking Oil 1L,Grocery,1,180,5,Chennai,UPI,Completed
+ORD1791,2026-09-21 15:30:28,C1324,P002,Smartphone,Electronics,2,24999,40,Tirunelveli,UPI,Completed
+ORD1792,2026-09-21 15:32:11,C1265,P028,Self-Help Book,Books,2,299,50,Salem,UPI,Completed
+ORD1793,2026-09-21 15:32:22,C1117,P036,Mouse,Accessories,1,499,10,Hyderabad,Debit Card,Completed
+ORD1794,2026-09-21 15:34:20,C1254,P029,Programming Book,Books,2,799,5,Coimbatore,Credit Card,Completed
+ORD1795,2026-09-21 15:34:32,C1024,P036,Mouse,Accessories,1,499,15,Chennai,UPI,Completed
+ORD1796,2026-09-21 15:35:05,C1290,P027,Notebook,Books,4,120,0,Chennai,Debit Card,Completed
+ORD1797,2026-09-21 15:35:06,C1085,P030,Rice Bag 5kg,Grocery,1,450,0,Chennai,Credit Card,Completed
+ORD1798,2026-09-21 15:35:37,C1272,P011,Jacket,Fashion,1,2999,50,Coimbatore,UPI,Completed
+ORD1799,2026-09-21 15:35:51,C1257,P022,Yoga Mat,Sports,3,699,25,Erode,UPI,Completed
+ORD1800,2026-09-21 15:36:56,C1265,P036,Mouse,Accessories,4,499,10,Chennai,Debit Card,Completed
+ORD1801,2026-09-21 15:37:20,C1158,P020,Hair Dryer,Beauty,1,1599,15,Chennai,UPI,Completed
+ORD1802,2026-09-21 15:37:26,C1067,P007,T-Shirt,Fashion,1,599,10,Tirunelveli,Credit Card,Cancelled
+ORD1803,2026-09-21 15:37:50,C1339,P038,Phone Case,Accessories,1,299,10,Salem,Credit Card,Completed
+ORD1804,2026-09-21 15:37:56,C1324,P002,Smartphone,Electronics,1,24999,10,Chennai,Credit Card,Completed
+ORD1805,2026-09-21 15:38:11,C1255,P038,Phone Case,Accessories,2,299,10,Salem,Debit Card,Completed
+ORD1806,2026-09-21 15:38:27,C1257,P038,Phone Case,Accessories,1,299,0,Bengaluru,Debit Card,Completed
+ORD1807,2026-09-21 15:39:24,C1223,P029,Programming Book,Books,1,799,10,Salem,UPI,Completed
+ORD1808,2026-09-21 15:39:28,C1295,P038,Phone Case,Accessories,1,299,20,Salem,Cash on Delivery,Completed
+ORD1809,2026-09-21 15:39:33,C1315,P026,Novel,Books,2,349,0,Coimbatore,Cash on Delivery,Completed
+ORD1810,2026-09-21 15:39:39,C1339,P012,Mixer Grinder,Home & Kitchen,2,3299,5,Coimbatore,UPI,Cancelled
+ORD1811,2026-09-21 15:39:56,C1030,P030,Rice Bag 5kg,Grocery,2,450,20,Coimbatore,UPI,Completed
+ORD1812,2026-09-21 15:40:17,C1137,P038,Phone Case,Accessories,1,299,50,Bengaluru,UPI,Completed
+ORD1813,2026-09-21 15:41:50,C1182,P029,Programming Book,Books,2,799,20,Chennai,UPI,Completed
+ORD1814,2026-09-21 15:43:38,C1065,P007,T-Shirt,Fashion,4,599,10,Bengaluru,UPI,Completed
+ORD1815,2026-09-21 15:43:46,C1265,P007,T-Shirt,Fashion,1,599,30,Coimbatore,Debit Card,Completed
+ORD1816,2026-09-21 15:47:26,C1058,P036,Mouse,Accessories,1,499,5,Chennai,UPI,Completed
+ORD1817,2026-09-21 15:48:50,C1230,P021,Cricket Bat,Sports,1,2199,0,Erode,UPI,Completed
+ORD1818,2026-09-21 15:48:53,C1032,P040,USB Cable,Accessories,2,199,0,Trichy,Net Banking,Completed
+ORD1819,2026-09-21 15:49:17,C1164,P038,Phone Case,Accessories,1,299,5,Coimbatore,Cash on Delivery,Returned
+ORD1820,2026-09-21 15:49:52,C1331,P034,Snack Combo Pack,Grocery,2,199,5,Chennai,UPI,Completed
+ORD1821,2026-09-21 15:49:53,C1159,P004,Wireless Headphones,Electronics,2,1499,20,Bengaluru,UPI,Completed
+ORD1822,2026-09-21 15:51:07,C1098,P036,Mouse,Accessories,2,499,25,Coimbatore,Credit Card,Completed
+ORD1823,2026-09-21 15:51:20,C1141,P021,Cricket Bat,Sports,1,2199,50,Hyderabad,Cash on Delivery,Completed
+ORD1824,2026-09-21 15:51:21,C1016,P014,Water Bottle,Home & Kitchen,3,399,5,Madurai,Credit Card,Completed
+ORD1825,2026-09-21 15:51:33,C1028,P027,Notebook,Books,1,120,40,Hyderabad,Net Banking,Completed
+ORD1826,2026-09-21 15:51:53,C1257,P037,Backpack,Accessories,1,1299,0,Chennai,Credit Card,Completed
+ORD1827,2026-09-21 15:51:54,C1175,P036,Mouse,Accessories,1,499,20,Coimbatore,Debit Card,Completed
+ORD1828,2026-09-21 15:52:12,C1058,P036,Mouse,Accessories,1,499,0,Salem,UPI,Completed
+ORD1829,2026-09-21 15:52:31,C1227,P031,Cooking Oil 1L,Grocery,1,180,5,Tirunelveli,UPI,Cancelled
+ORD1830,2026-09-21 15:53:02,C1266,P037,Backpack,Accessories,1,1299,0,Madurai,Cash on Delivery,Completed
+ORD1831,2026-09-21 15:53:41,C1184,P005,Smartwatch,Electronics,2,3999,0,Salem,Cash on Delivery,Cancelled
+ORD1832,2026-09-21 15:53:46,C1208,P032,Tea Powder 500g,Grocery,2,260,5,Tirunelveli,Debit Card,Completed
+ORD1833,2026-09-21 15:54:04,C1195,P028,Self-Help Book,Books,3,299,25,Chennai,UPI,Completed
+ORD1834,2026-09-21 15:54:36,C1258,P004,Wireless Headphones,Electronics,4,1499,20,Chennai,UPI,Completed
+ORD1835,2026-09-21 15:54:42,C1199,P038,Phone Case,Accessories,1,299,0,Madurai,Cash on Delivery,Returned
+ORD1836,2026-09-21 15:55:02,C1127,P012,Mixer Grinder,Home & Kitchen,2,3299,20,Madurai,Credit Card,Completed
+ORD1837,2026-09-21 15:55:03,C1187,P015,Electric Kettle,Home & Kitchen,1,1199,0,Hyderabad,Cash on Delivery,Completed
+ORD1838,2026-09-21 15:56:08,C1208,P020,Hair Dryer,Beauty,1,1599,15,Bengaluru,Debit Card,Completed
+ORD1839,2026-09-21 15:56:14,C1346,P012,Mixer Grinder,Home & Kitchen,1,3299,50,Tirunelveli,Credit Card,Completed
+ORD1840,2026-09-21 15:56:20,C1246,P022,Yoga Mat,Sports,1,699,50,Coimbatore,Cash on Delivery,Completed
+ORD1841,2026-09-21 15:56:35,C1279,P030,Rice Bag 5kg,Grocery,2,450,0,Bengaluru,UPI,Completed
+ORD1842,2026-09-21 15:57:13,C1344,P015,Electric Kettle,Home & Kitchen,2,1199,25,Mumbai,Credit Card,Completed
+ORD1843,2026-09-21 15:57:49,C1346,P029,Programming Book,Books,3,799,5,Madurai,UPI,Completed
+ORD1844,2026-09-21 15:58:17,C1300,P007,T-Shirt,Fashion,1,599,0,Erode,Credit Card,Completed
+ORD1845,2026-09-21 15:58:50,C1249,P036,Mouse,Accessories,1,499,0,Chennai,Debit Card,Completed
+ORD1846,2026-09-21 15:58:51,C1075,P006,Bluetooth Speaker,Electronics,2,2499,20,Chennai,Debit Card,Completed
+ORD1847,2026-09-21 15:58:55,C1345,P029,Programming Book,Books,1,799,40,Coimbatore,Cash on Delivery,Cancelled
+ORD1848,2026-09-21 15:59:09,C1341,P004,Wireless Headphones,Electronics,1,1499,0,Mumbai,Debit Card,Completed
+ORD1849,2026-09-21 16:00:31,C1215,P039,Power Bank,Accessories,1,1499,0,Chennai,Credit Card,Completed
+ORD1850,2026-09-21 16:01:07,C1224,P038,Phone Case,Accessories,1,299,15,Erode,Debit Card,Completed
+ORD1851,2026-09-21 16:01:49,C1224,P036,Mouse,Accessories,1,499,15,Coimbatore,UPI,Completed
+ORD1852,2026-09-21 16:02:23,C1230,P022,Yoga Mat,Sports,2,699,0,Trichy,Credit Card,Completed
+ORD1853,2026-09-21 16:02:25,C1276,P031,Cooking Oil 1L,Grocery,1,180,10,Salem,Credit Card,Completed
+ORD1854,2026-09-21 16:02:54,C1023,P004,Wireless Headphones,Electronics,4,1499,20,Chennai,Cash on Delivery,Completed
+ORD1855,2026-09-21 16:03:53,C1186,P025,Badminton Racket,Sports,3,1099,10,Madurai,Credit Card,Completed
+ORD1856,2026-09-21 16:05:01,C1044,P033,Coffee Powder 200g,Grocery,3,340,40,Bengaluru,UPI,Completed
+ORD1857,2026-09-21 16:05:34,C1193,P007,T-Shirt,Fashion,3,599,0,Chennai,UPI,Completed
+ORD1858,2026-09-21 16:05:42,C1299,P025,Badminton Racket,Sports,1,1099,50,Madurai,UPI,Completed
+ORD1859,2026-09-21 16:06:03,C1333,P017,Face Wash,Beauty,1,249,5,Hyderabad,Credit Card,Completed
+ORD1860,2026-09-21 16:06:12,C1153,P028,Self-Help Book,Books,2,299,15,Madurai,Net Banking,Completed
+ORD1861,2026-09-21 16:06:49,C1074,P024,Dumbbell Set,Sports,1,1899,25,Chennai,UPI,Completed
+ORD1862,2026-09-21 16:08:04,C1337,P035,Keyboard,Accessories,2,899,0,Coimbatore,UPI,Completed
+ORD1863,2026-09-21 16:08:52,C1089,P004,Wireless Headphones,Electronics,1,1499,30,Coimbatore,UPI,Completed
+ORD1864,2026-09-21 16:09:24,C1241,P017,Face Wash,Beauty,2,249,0,Tirunelveli,Net Banking,Completed
+ORD1865,2026-09-21 16:09:50,C1128,P007,T-Shirt,Fashion,2,599,25,Trichy,UPI,Completed
+ORD1866,2026-09-21 16:11:55,C1149,P040,USB Cable,Accessories,1,199,15,Chennai,UPI,Completed
+ORD1867,2026-09-21 16:12:25,C1024,P025,Badminton Racket,Sports,2,1099,5,Coimbatore,UPI,Cancelled
+ORD1868,2026-09-21 16:13:10,C1004,P009,Shoes,Fashion,1,2499,40,Coimbatore,UPI,Cancelled
+ORD1869,2026-09-21 16:13:55,C1256,P007,T-Shirt,Fashion,1,599,25,Madurai,Credit Card,Completed
+ORD1870,2026-09-21 16:14:07,C1191,P036,Mouse,Accessories,2,499,30,Chennai,Cash on Delivery,Completed
+ORD1871,2026-09-21 16:16:13,C1258,P013,Cookware Set,Home & Kitchen,5,2799,10,Trichy,Cash on Delivery,Completed
+ORD1872,2026-09-21 16:16:27,C1004,P005,Smartwatch,Electronics,2,3999,0,Chennai,UPI,Completed
+ORD1873,2026-09-21 16:19:08,C1255,P002,Smartphone,Electronics,5,24999,20,Chennai,Credit Card,Completed
+ORD1874,2026-09-21 16:19:56,C1345,P007,T-Shirt,Fashion,3,599,10,Chennai,Credit Card,Returned
+ORD1875,2026-09-21 16:20:22,C1282,P036,Mouse,Accessories,1,499,25,Hyderabad,UPI,Completed
+ORD1876,2026-09-21 16:20:54,C1027,P004,Wireless Headphones,Electronics,2,1499,40,Chennai,UPI,Completed
+ORD1877,2026-09-21 16:21:45,C1171,P025,Badminton Racket,Sports,3,1099,40,Coimbatore,Credit Card,Completed
+ORD1878,2026-09-21 16:22:19,C1178,P022,Yoga Mat,Sports,5,699,30,Salem,UPI,Completed
+ORD1879,2026-09-21 16:23:49,C1260,P038,Phone Case,Accessories,2,299,20,Tirunelveli,UPI,Completed
+ORD1880,2026-09-21 16:24:05,C1287,P038,Phone Case,Accessories,4,299,10,Trichy,Credit Card,Returned
+ORD1881,2026-09-21 16:24:11,C1309,P028,Self-Help Book,Books,2,299,0,Chennai,Cash on Delivery,Completed
+ORD1882,2026-09-21 16:24:29,C1145,P038,Phone Case,Accessories,1,299,5,Chennai,Cash on Delivery,Completed
+ORD1883,2026-09-21 16:24:44,C1266,P024,Dumbbell Set,Sports,1,1899,0,Chennai,UPI,Completed
+ORD1884,2026-09-21 16:25:39,C1075,P025,Badminton Racket,Sports,1,1099,40,Salem,Cash on Delivery,Completed
+ORD1885,2026-09-21 16:26:49,C1213,P020,Hair Dryer,Beauty,1,1599,5,Trichy,UPI,Completed
+ORD1886,2026-09-21 16:27:22,C1312,P001,Laptop,Electronics,1,55000,5,Chennai,Credit Card,Completed
+ORD1887,2026-09-21 16:27:26,C1054,P023,Football,Sports,1,799,10,Chennai,Debit Card,Completed
+ORD1888,2026-09-21 16:27:36,C1105,P015,Electric Kettle,Home & Kitchen,1,1199,0,Bengaluru,UPI,Completed
+ORD1889,2026-09-21 16:27:50,C1056,P036,Mouse,Accessories,1,499,5,Coimbatore,Cash on Delivery,Completed
+ORD1890,2026-09-21 16:28:00,C1013,P007,T-Shirt,Fashion,1,599,20,Hyderabad,UPI,Completed
+ORD1891,2026-09-21 16:28:16,C1228,P021,Cricket Bat,Sports,1,2199,5,Trichy,Debit Card,Completed
+ORD1892,2026-09-21 16:29:01,C1266,P012,Mixer Grinder,Home & Kitchen,4,3299,10,Hyderabad,Cash on Delivery,Completed
+ORD1893,2026-09-21 16:31:14,C1038,P004,Wireless Headphones,Electronics,1,1499,0,Madurai,Debit Card,Completed
+ORD1894,2026-09-21 16:31:20,C1119,P029,Programming Book,Books,5,799,20,Coimbatore,UPI,Completed
+ORD1895,2026-09-21 16:32:45,C1086,P032,Tea Powder 500g,Grocery,1,260,10,Chennai,Debit Card,Cancelled
+ORD1896,2026-09-21 16:33:27,C1085,P040,USB Cable,Accessories,3,199,0,Tirunelveli,Cash on Delivery,Completed
+ORD1897,2026-09-21 16:33:40,C1065,P022,Yoga Mat,Sports,5,699,10,Salem,UPI,Completed
+ORD1898,2026-09-21 16:33:42,C1346,P002,Smartphone,Electronics,4,24999,5,Trichy,UPI,Completed
+ORD1899,2026-09-21 16:34:24,C1109,P016,Bedsheet Set,Home & Kitchen,2,899,0,Coimbatore,Credit Card,Completed
+ORD1900,2026-09-21 16:35:17,C1107,P028,Self-Help Book,Books,1,299,0,Coimbatore,UPI,Completed
+ORD1901,2026-09-21 16:35:18,C1013,P002,Smartphone,Electronics,1,24999,20,Chennai,Credit Card,Cancelled
+ORD1902,2026-09-21 16:35:39,C1067,P004,Wireless Headphones,Electronics,4,1499,5,Coimbatore,UPI,Completed
+ORD1903,2026-09-21 16:37:27,C1301,P025,Badminton Racket,Sports,1,1099,20,Coimbatore,Debit Card,Completed
+ORD1904,2026-09-21 16:37:37,C1224,P015,Electric Kettle,Home & Kitchen,1,1199,5,Bengaluru,UPI,Completed
+ORD1905,2026-09-21 16:37:45,C1202,P004,Wireless Headphones,Electronics,4,1499,15,Chennai,Debit Card,Cancelled
+ORD1906,2026-09-21 16:39:07,C1189,P004,Wireless Headphones,Electronics,1,1499,20,Mumbai,UPI,Completed
+ORD1907,2026-09-21 16:39:08,C1068,P002,Smartphone,Electronics,2,24999,0,Bengaluru,Cash on Delivery,Cancelled
+ORD1908,2026-09-21 16:39:44,C1314,P039,Power Bank,Accessories,1,1499,20,Hyderabad,UPI,Completed
+ORD1909,2026-09-21 16:40:00,C1175,P038,Phone Case,Accessories,1,299,10,Salem,UPI,Completed
+ORD1910,2026-09-21 16:40:41,C1276,P025,Badminton Racket,Sports,2,1099,20,Coimbatore,Debit Card,Cancelled
+ORD1911,2026-09-21 16:42:09,C1057,P039,Power Bank,Accessories,3,1499,5,Erode,UPI,Completed
+ORD1912,2026-09-21 16:42:37,C1056,P007,T-Shirt,Fashion,1,599,15,Bengaluru,Debit Card,Completed
+ORD1913,2026-09-21 16:43:43,C1182,P029,Programming Book,Books,1,799,0,Tirunelveli,Credit Card,Completed
+ORD1914,2026-09-21 16:44:35,C1084,P002,Smartphone,Electronics,1,24999,0,Bengaluru,Cash on Delivery,Completed
+ORD1915,2026-09-21 16:45:25,C1222,P033,Coffee Powder 200g,Grocery,1,340,25,Madurai,UPI,Completed
+ORD1916,2026-09-21 16:45:27,C1127,P027,Notebook,Books,1,120,20,Trichy,Debit Card,Completed
+ORD1917,2026-09-21 16:46:11,C1116,P027,Notebook,Books,1,120,25,Bengaluru,UPI,Returned
+ORD1918,2026-09-21 16:46:48,C1339,P007,T-Shirt,Fashion,2,599,50,Erode,Debit Card,Completed
+ORD1919,2026-09-21 16:47:08,C1132,P031,Cooking Oil 1L,Grocery,2,180,30,Salem,Credit Card,Completed
+ORD1920,2026-09-21 16:47:23,C1095,P009,Shoes,Fashion,2,2499,25,Erode,UPI,Completed
+ORD1921,2026-09-21 16:47:27,C1127,P030,Rice Bag 5kg,Grocery,4,450,0,Chennai,UPI,Cancelled
+ORD1922,2026-09-21 16:47:52,C1170,P007,T-Shirt,Fashion,2,599,15,Chennai,UPI,Completed
+ORD1923,2026-09-21 16:47:53,C1212,P015,Electric Kettle,Home & Kitchen,1,1199,0,Chennai,Cash on Delivery,Returned
+ORD1924,2026-09-21 16:48:16,C1182,P004,Wireless Headphones,Electronics,2,1499,25,Trichy,UPI,Completed
+ORD1925,2026-09-21 16:48:31,C1266,P035,Keyboard,Accessories,2,899,0,Chennai,UPI,Completed
+ORD1926,2026-09-21 16:49:05,C1005,P027,Notebook,Books,5,120,40,Chennai,Debit Card,Completed
+ORD1927,2026-09-21 16:49:22,C1072,P029,Programming Book,Books,1,799,10,Madurai,UPI,Completed
+ORD1928,2026-09-21 16:50:06,C1019,P007,T-Shirt,Fashion,2,599,15,Chennai,Cash on Delivery,Completed
+ORD1929,2026-09-21 16:50:12,C1177,P011,Jacket,Fashion,3,2999,0,Hyderabad,UPI,Completed
+ORD1930,2026-09-21 16:51:54,C1225,P006,Bluetooth Speaker,Electronics,1,2499,30,Coimbatore,Cash on Delivery,Completed
+ORD1931,2026-09-21 16:52:52,C1059,P004,Wireless Headphones,Electronics,1,1499,0,Hyderabad,UPI,Completed
+ORD1932,2026-09-21 16:53:32,C1324,P004,Wireless Headphones,Electronics,4,1499,30,Trichy,UPI,Completed
+ORD1933,2026-09-21 16:53:50,C1233,P027,Notebook,Books,1,120,15,Coimbatore,Cash on Delivery,Completed
+ORD1934,2026-09-21 16:55:56,C1321,P004,Wireless Headphones,Electronics,2,1499,40,Bengaluru,Debit Card,Completed
+ORD1935,2026-09-21 16:56:20,C1328,P001,Laptop,Electronics,1,55000,15,Coimbatore,UPI,Completed
+ORD1936,2026-09-21 16:56:38,C1167,P033,Coffee Powder 200g,Grocery,1,340,10,Hyderabad,UPI,Completed
+ORD1937,2026-09-21 16:58:15,C1065,P040,USB Cable,Accessories,1,199,5,Coimbatore,Debit Card,Completed
+ORD1938,2026-09-21 16:59:19,C1117,P034,Snack Combo Pack,Grocery,3,199,15,Chennai,UPI,Completed
+ORD1939,2026-09-21 17:00:16,C1183,P023,Football,Sports,3,799,5,Trichy,Credit Card,Completed
+ORD1940,2026-09-21 17:00:52,C1262,P029,Programming Book,Books,2,799,0,Chennai,Net Banking,Completed
+ORD1941,2026-09-21 17:01:21,C1337,P025,Badminton Racket,Sports,4,1099,0,Coimbatore,Cash on Delivery,Cancelled
+ORD1942,2026-09-21 17:01:38,C1102,P034,Snack Combo Pack,Grocery,1,199,25,Mumbai,Cash on Delivery,Completed
+ORD1943,2026-09-21 17:01:42,C1019,P035,Keyboard,Accessories,1,899,40,Tirunelveli,UPI,Completed
+ORD1944,2026-09-21 17:03:15,C1128,P039,Power Bank,Accessories,2,1499,15,Chennai,Cash on Delivery,Cancelled
+ORD1945,2026-09-21 17:03:45,C1127,P002,Smartphone,Electronics,1,24999,0,Trichy,Cash on Delivery,Completed
+ORD1946,2026-09-21 17:05:02,C1259,P007,T-Shirt,Fashion,2,599,15,Chennai,UPI,Completed
+ORD1947,2026-09-21 17:05:47,C1241,P033,Coffee Powder 200g,Grocery,1,340,0,Bengaluru,UPI,Completed
+ORD1948,2026-09-21 17:06:13,C1004,P022,Yoga Mat,Sports,3,699,15,Bengaluru,Credit Card,Completed
+ORD1949,2026-09-21 17:06:36,C1174,P038,Phone Case,Accessories,2,299,5,Chennai,Net Banking,Completed
+ORD1950,2026-09-21 17:06:37,C1044,P039,Power Bank,Accessories,1,1499,15,Chennai,UPI,Completed
+ORD1951,2026-09-21 17:07:10,C1295,P025,Badminton Racket,Sports,3,1099,10,Coimbatore,Debit Card,Completed
+ORD1952,2026-09-21 17:07:54,C1277,P007,T-Shirt,Fashion,2,599,0,Chennai,UPI,Completed
+ORD1953,2026-09-21 17:07:55,C1008,P036,Mouse,Accessories,1,499,10,Chennai,Credit Card,Completed
+ORD1954,2026-09-21 17:07:56,C1191,P012,Mixer Grinder,Home & Kitchen,2,3299,0,Chennai,Net Banking,Completed
+ORD1955,2026-09-21 17:07:59,C1274,P025,Badminton Racket,Sports,1,1099,5,Hyderabad,UPI,Completed
+ORD1956,2026-09-21 17:08:47,C1137,P011,Jacket,Fashion,1,2999,20,Tirunelveli,Net Banking,Completed
+ORD1957,2026-09-21 17:08:49,C1141,P004,Wireless Headphones,Electronics,2,1499,0,Bengaluru,UPI,Completed
+ORD1958,2026-09-21 17:11:40,C1202,P015,Electric Kettle,Home & Kitchen,3,1199,0,Chennai,Credit Card,Cancelled
+ORD1959,2026-09-21 17:11:53,C1254,P004,Wireless Headphones,Electronics,4,1499,25,Salem,Debit Card,Completed
+ORD1960,2026-09-21 17:11:58,C1179,P039,Power Bank,Accessories,2,1499,15,Hyderabad,UPI,Completed
+ORD1961,2026-09-21 17:12:50,C1124,P013,Cookware Set,Home & Kitchen,3,2799,5,Bengaluru,Debit Card,Completed
+ORD1962,2026-09-21 17:13:08,C1212,P008,Jeans,Fashion,1,1499,0,Trichy,Credit Card,Completed
+ORD1963,2026-09-21 17:13:31,C1305,P006,Bluetooth Speaker,Electronics,2,2499,40,Erode,UPI,Completed
+ORD1964,2026-09-21 17:13:49,C1328,P012,Mixer Grinder,Home & Kitchen,1,3299,0,Coimbatore,UPI,Completed
+ORD1965,2026-09-21 17:16:02,C1090,P033,Coffee Powder 200g,Grocery,1,340,0,Bengaluru,Debit Card,Completed
+ORD1966,2026-09-21 17:16:07,C1197,P005,Smartwatch,Electronics,1,3999,25,Coimbatore,Cash on Delivery,Cancelled
+ORD1967,2026-09-21 17:16:12,C1127,P005,Smartwatch,Electronics,3,3999,40,Coimbatore,Debit Card,Completed
+ORD1968,2026-09-21 17:16:31,C1308,P010,Kurta,Fashion,2,999,15,Salem,Debit Card,Completed
+ORD1969,2026-09-21 17:19:05,C1004,P035,Keyboard,Accessories,3,899,0,Chennai,UPI,Completed
+ORD1970,2026-09-21 17:20:01,C1161,P015,Electric Kettle,Home & Kitchen,1,1199,10,Salem,Cash on Delivery,Completed
+ORD1971,2026-09-21 17:20:25,C1256,P004,Wireless Headphones,Electronics,4,1499,30,Erode,UPI,Completed
+ORD1972,2026-09-21 17:20:47,C1349,P012,Mixer Grinder,Home & Kitchen,1,3299,20,Madurai,UPI,Completed
+ORD1973,2026-09-21 17:20:57,C1162,P007,T-Shirt,Fashion,2,599,5,Chennai,Credit Card,Completed
+ORD1974,2026-09-21 17:21:03,C1125,P038,Phone Case,Accessories,1,299,10,Chennai,Cash on Delivery,Returned
+ORD1975,2026-09-21 17:22:26,C1095,P029,Programming Book,Books,2,799,0,Chennai,UPI,Completed
+ORD1976,2026-09-21 17:22:27,C1306,P030,Rice Bag 5kg,Grocery,2,450,15,Chennai,Cash on Delivery,Completed
+ORD1977,2026-09-21 17:23:05,C1119,P037,Backpack,Accessories,3,1299,0,Coimbatore,UPI,Completed
+ORD1978,2026-09-21 17:24:32,C1056,P029,Programming Book,Books,2,799,5,Salem,UPI,Completed
+ORD1979,2026-09-21 17:24:34,C1206,P033,Coffee Powder 200g,Grocery,1,340,15,Trichy,UPI,Returned
+ORD1980,2026-09-21 17:24:57,C1258,P038,Phone Case,Accessories,2,299,5,Chennai,Credit Card,Completed
+ORD1981,2026-09-21 17:26:19,C1041,P036,Mouse,Accessories,5,499,5,Madurai,UPI,Completed
+ORD1982,2026-09-21 17:26:20,C1044,P035,Keyboard,Accessories,1,899,40,Chennai,UPI,Returned
+ORD1983,2026-09-21 17:26:51,C1189,P017,Face Wash,Beauty,1,249,5,Coimbatore,Net Banking,Returned
+ORD1984,2026-09-21 17:27:50,C1005,P026,Novel,Books,3,349,0,Bengaluru,Credit Card,Cancelled
+ORD1985,2026-09-21 17:31:11,C1223,P029,Programming Book,Books,1,799,5,Coimbatore,Credit Card,Completed
+ORD1986,2026-09-21 17:32:50,C1040,P032,Tea Powder 500g,Grocery,1,260,5,Chennai,Credit Card,Completed
+ORD1987,2026-09-21 17:33:24,C1297,P015,Electric Kettle,Home & Kitchen,2,1199,5,Chennai,Debit Card,Cancelled
+ORD1988,2026-09-21 17:34:32,C1349,P036,Mouse,Accessories,3,499,0,Salem,Credit Card,Completed
+ORD1989,2026-09-21 17:35:55,C1263,P022,Yoga Mat,Sports,4,699,0,Madurai,Credit Card,Completed
+ORD1990,2026-09-21 17:36:24,C1143,P011,Jacket,Fashion,1,2999,10,Coimbatore,UPI,Completed
+ORD1991,2026-09-21 17:36:36,C1339,P005,Smartwatch,Electronics,4,3999,5,Bengaluru,Debit Card,Completed
+ORD1992,2026-09-21 17:37:11,C1129,P002,Smartphone,Electronics,1,24999,0,Bengaluru,UPI,Completed
+ORD1993,2026-09-21 17:37:18,C1142,P034,Snack Combo Pack,Grocery,1,199,30,Coimbatore,UPI,Completed
+ORD1994,2026-09-21 17:37:50,C1283,P015,Electric Kettle,Home & Kitchen,3,1199,10,Coimbatore,Net Banking,Returned
+ORD1995,2026-09-21 17:37:52,C1341,P009,Shoes,Fashion,1,2499,15,Bengaluru,Cash on Delivery,Completed
+ORD1996,2026-09-21 17:38:11,C1219,P005,Smartwatch,Electronics,5,3999,0,Hyderabad,Credit Card,Completed
+ORD1997,2026-09-21 17:38:58,C1277,P004,Wireless Headphones,Electronics,2,1499,15,Erode,Cash on Delivery,Completed
+ORD1998,2026-09-21 17:39:12,C1192,P010,Kurta,Fashion,4,999,0,Chennai,Credit Card,Completed
+ORD1999,2026-09-21 17:39:42,C1008,P027,Notebook,Books,2,120,30,Chennai,UPI,Completed
+ORD2000,2026-09-21 17:39:52,C1158,P005,Smartwatch,Electronics,2,3999,5,Chennai,Cash on Delivery,Completed
