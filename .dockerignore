@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.vscode/
+.idea/
+checkpoint/
+checkpoints/
+output/*
+!output/README.md
