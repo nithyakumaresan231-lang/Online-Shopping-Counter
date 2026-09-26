@@ -62,6 +62,7 @@ from analytics.schemas import (
     COL_TOTAL_AMOUNT,
     STATUS_COMPLETED,
     STATUS_RETURNED,
+    TRANSACTION_SCHEMA,
     validate_processed_schema
 )
 
@@ -359,19 +360,131 @@ def save_metrics_to_json(metrics: dict, output_path: str = None) -> str:
 
     return output_path
 
-
 def process_streaming_batch(batch_df: DataFrame, batch_id: int, output_path: str = None):
     """
-    PySpark foreachBatch sink processor:
-    Computes analytics on each micro-batch and writes the latest aggregated summary
-    to the output folder for the dashboard.
+    Processes each Spark micro-batch.
+
+    - Stores all transactions for cumulative analytics.
+    - Stores only the latest 20 transactions for the dashboard.
+    - Computes analytics using the complete transaction history.
+    - Updates latest_metrics.json for Streamlit.
     """
+
     if batch_df.isEmpty():
         return
 
-    metrics = compute_all_analytics(batch_df)
-    save_path = save_metrics_to_json(metrics, output_path)
-    print(f"Batch {batch_id}: Processed {metrics['total_orders']} orders. Metrics saved to {save_path}")
+    # ------------------------------------------------------------------
+    # Output paths
+    # ------------------------------------------------------------------
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_dir = os.path.join(base_dir, "output")
+    os.makedirs(output_dir, exist_ok=True)
+
+    all_transactions_path = os.path.join(
+        output_dir,
+        "all_transactions.json"
+    )
+
+    recent_transactions_path = os.path.join(
+        output_dir,
+        "recent_transactions.json"
+    )
+
+    # ------------------------------------------------------------------
+    # Convert current Spark batch to Python records
+    # ------------------------------------------------------------------
+    current_transactions = (
+        batch_df
+        .toPandas()
+        .to_dict(orient="records")
+    )
+
+    # ------------------------------------------------------------------
+    # Load complete transaction history
+    # ------------------------------------------------------------------
+    all_transactions = []
+
+    if os.path.exists(all_transactions_path):
+        try:
+            with open(all_transactions_path, "r", encoding="utf-8") as f:
+                all_transactions = json.load(f)
+
+            if not isinstance(all_transactions, list):
+                all_transactions = []
+
+        except (json.JSONDecodeError, OSError):
+            all_transactions = []
+
+    # ------------------------------------------------------------------
+    # Add current batch to complete history
+    # ------------------------------------------------------------------
+    all_transactions.extend(current_transactions)
+
+    # ------------------------------------------------------------------
+    # Save complete transaction history
+    # ------------------------------------------------------------------
+    with open(all_transactions_path, "w", encoding="utf-8") as f:
+        json.dump(
+            all_transactions,
+            f,
+            indent=2,
+            default=str
+        )
+
+    # ------------------------------------------------------------------
+    # Save only latest 20 transactions for dashboard
+    # ------------------------------------------------------------------
+    recent_transactions = all_transactions[-20:]
+
+    with open(recent_transactions_path, "w", encoding="utf-8") as f:
+        json.dump(
+            recent_transactions,
+            f,
+            indent=2,
+            default=str
+        )
+
+    # ------------------------------------------------------------------
+    # Recreate Spark DataFrame from complete transaction history
+    # ------------------------------------------------------------------
+    accumulated_df = batch_df.sparkSession.createDataFrame(
+        all_transactions,
+        schema=TRANSACTION_SCHEMA
+    )
+
+    accumulated_df = (
+        accumulated_df
+        .withColumn(
+            COL_TIMESTAMP,
+            col(COL_TIMESTAMP).cast("timestamp")
+        )
+        .withColumn(
+            COL_TOTAL_AMOUNT,
+            col(COL_QUANTITY)
+            * col(COL_UNIT_PRICE)
+            * (1 - col(COL_DISCOUNT_PERCENT) / 100.0)
+        )
+    )
+
+    # ------------------------------------------------------------------
+    # Calculate analytics using ALL transactions
+    # ------------------------------------------------------------------
+    metrics = compute_all_analytics(accumulated_df)
+
+    # ------------------------------------------------------------------
+    # Save cumulative metrics for Streamlit
+    # ------------------------------------------------------------------
+    save_path = save_metrics_to_json(
+        metrics,
+        output_path
+    )
+
+    print(
+    f"| {batch_id:^7} | "
+    f"{len(current_transactions):^11} | "
+    f"{len(all_transactions):^13} | "
+    f"{save_path:<43} |"
+)
 
 
 def start_analytics_stream(processed_df: DataFrame, checkpoint_location: str = "/tmp/spark_analytics_checkpoint", output_path: str = None):
@@ -379,6 +492,10 @@ def start_analytics_stream(processed_df: DataFrame, checkpoint_location: str = "
     Starts a streaming query on the processed DataFrame using foreachBatch to compute
     and export real-time analytics metrics for the dashboard.
     """
+    print()
+    print("+---------+-------------+---------------+---------------------------------------------+")
+    print("|  Batch  |  New Orders |  Total Orders |              Metrics Saved To              |")
+    print("+---------+-------------+---------------+---------------------------------------------+")
     return processed_df.writeStream \
         .outputMode("append") \
         .foreachBatch(lambda df, batch_id: process_streaming_batch(df, batch_id, output_path)) \

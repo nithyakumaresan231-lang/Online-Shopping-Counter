@@ -1,7 +1,20 @@
+import sys
+sys.path.insert(0, "/app")
+
 import os
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col, to_timestamp
-from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType
+from pyspark.sql.types import (
+    StructType,
+    StructField,
+    StringType,
+    IntegerType,
+    DoubleType
+)
+
+from analytics.aggregations import start_analytics_stream
+
 
 def get_transaction_schema():
     return StructType([
@@ -19,41 +32,93 @@ def get_transaction_schema():
         StructField("order_status", StringType(), True)
     ])
 
+
 def main():
-    bootstrap_servers = os.environ.get('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
-    topic = os.environ.get('KAFKA_TOPIC', 'shopping-transactions')
-    checkpoint_location = os.environ.get('CHECKPOINT_LOCATION', '/tmp/spark_checkpoint')
 
-    spark = SparkSession.builder \
-        .appName("OnlineShoppingStreaming") \
+    bootstrap_servers = os.environ.get(
+        "KAFKA_BOOTSTRAP_SERVERS",
+        "localhost:9092"
+    )
+
+    topic = os.environ.get(
+        "KAFKA_TOPIC",
+        "shopping-transactions"
+    )
+
+    analytics_checkpoint = os.environ.get(
+        "ANALYTICS_CHECKPOINT_LOCATION",
+        "/tmp/spark_analytics_checkpoint"
+    )
+
+    spark = (
+        SparkSession.builder
+        .appName("OnlineShoppingStreaming")
         .getOrCreate()
-        
-    spark.sparkContext.setLogLevel("WARN")
+    )
 
-    df = spark.readStream \
-        .format("kafka") \
-        .option("kafka.bootstrap.servers", bootstrap_servers) \
-        .option("subscribe", topic) \
-        .option("startingOffsets", "latest") \
+    spark.sparkContext.setLogLevel("ERROR")
+
+    # ---------------------------------------------------------
+    # Read Kafka stream
+    # ---------------------------------------------------------
+
+    df = (
+        spark.readStream
+        .format("kafka")
+        .option("kafka.bootstrap.servers", bootstrap_servers)
+        .option("subscribe", topic)
+        .option("startingOffsets", "latest")
         .load()
+    )
+
+    # ---------------------------------------------------------
+    # Parse JSON
+    # ---------------------------------------------------------
 
     schema = get_transaction_schema()
 
-    parsed_df = df.selectExpr("CAST(value AS STRING)") \
-        .select(from_json(col("value"), schema).alias("data")) \
+    parsed_df = (
+        df
+        .selectExpr("CAST(value AS STRING)")
+        .select(from_json(col("value"), schema).alias("data"))
         .select("data.*")
+    )
 
-    processed_df = parsed_df \
-        .withColumn("timestamp", to_timestamp(col("timestamp"), "yyyy-MM-dd HH:mm:ss")) \
-        .withColumn("total_amount", col("quantity") * col("unit_price") * (1 - col("discount_percent") / 100.0))
+    # ---------------------------------------------------------
+    # Add timestamp and total_amount
+    # ---------------------------------------------------------
 
-    query = processed_df.writeStream \
-        .outputMode("append") \
-        .format("console") \
-        .option("checkpointLocation", checkpoint_location) \
-        .start()
+    processed_df = (
+        parsed_df
+        .withColumn(
+            "timestamp",
+            to_timestamp(
+                col("timestamp"),
+                "yyyy-MM-dd HH:mm:ss"
+            )
+        )
+        .withColumn(
+            "total_amount",
+            col("quantity")
+            * col("unit_price")
+            * (1 - col("discount_percent") / 100.0)
+        )
+    )
 
-    query.awaitTermination()
+    # ---------------------------------------------------------
+    # Start analytics stream
+    # ---------------------------------------------------------
+
+    analytics_query = start_analytics_stream(
+        processed_df,
+        checkpoint_location=analytics_checkpoint
+    )
+
+    print("Spark analytics streaming started...")
+    print("Waiting for Kafka transactions...")
+
+    analytics_query.awaitTermination()
+
 
 if __name__ == "__main__":
     main()

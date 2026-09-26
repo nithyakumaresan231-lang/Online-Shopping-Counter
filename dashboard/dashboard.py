@@ -226,7 +226,7 @@ def render_orders_by_city_chart(df: pd.DataFrame):
 
     chart = (
         alt.Chart(df)
-        .mark_bar(cornerRadiusTop=4)
+        .mark_bar(cornerRadius=4)
         .encode(
             x=alt.X(f"{COL_CITY}:N", title="", sort="-y"),
             y=alt.Y("order_count:Q", title="Orders", axis=alt.Axis(tickMinStep=1)),
@@ -305,44 +305,77 @@ def render_order_status_chart(df: pd.DataFrame):
     )
     st.altair_chart(chart, use_container_width=True)
 
-
 def render_recent_transactions_table(df: pd.DataFrame):
-    """Render Recent Transactions table with styled amount and readable status."""
-    st.markdown('<div class="section-title">Recent Transactions</div>', unsafe_allow_html=True)
+        """Render Recent Transactions table with styled amount and readable status."""
+        st.markdown(
+            '<div class="section-title">Recent Transactions</div>',
+            unsafe_allow_html=True
+        )
 
-    if df.empty:
-        st.info("Waiting for streaming data... (No transactions recorded yet)")
-        # Show table structure even when empty to satisfy schema inspection
-        empty_placeholder = pd.DataFrame(columns=[
-            DISPLAY_COL_ORDER_ID,
-            DISPLAY_COL_PRODUCT,
-            DISPLAY_COL_CATEGORY,
-            DISPLAY_COL_AMOUNT,
-            DISPLAY_COL_CITY,
-            DISPLAY_COL_STATUS,
-        ])
-        st.dataframe(empty_placeholder, use_container_width=True, hide_index=True)
-        return
+        if df.empty:
+            st.info("Waiting for streaming data... (No transactions recorded yet)")
 
-    display_df = df.copy()
-    # Format status labels with accessible icon + text
-    if DISPLAY_COL_STATUS in display_df.columns:
-        display_df[DISPLAY_COL_STATUS] = display_df[DISPLAY_COL_STATUS].apply(format_status_label)
+            empty_placeholder = pd.DataFrame(columns=[
+                DISPLAY_COL_ORDER_ID,
+                DISPLAY_COL_PRODUCT,
+                DISPLAY_COL_CATEGORY,
+                DISPLAY_COL_AMOUNT,
+                DISPLAY_COL_CITY,
+                DISPLAY_COL_STATUS,
+            ])
 
-    st.dataframe(
-        display_df,
-        use_container_width=True,
-        hide_index=True,
-        column_config={
-            DISPLAY_COL_ORDER_ID: st.column_config.TextColumn("Order ID", width="small"),
-            DISPLAY_COL_PRODUCT: st.column_config.TextColumn("Product", width="medium"),
-            DISPLAY_COL_CATEGORY: st.column_config.TextColumn("Category", width="small"),
-            DISPLAY_COL_AMOUNT: st.column_config.NumberColumn("Amount", format="₹%.2f", width="small"),
-            DISPLAY_COL_CITY: st.column_config.TextColumn("City", width="small"),
-            DISPLAY_COL_STATUS: st.column_config.TextColumn("Status", width="small"),
-        },
-    )
+            st.dataframe(
+                empty_placeholder,
+                use_container_width=True,
+                hide_index=True
+            )
+            return
 
+        display_df = df.copy()
+
+        # -----------------------------------------------------------------
+        # Fix duplicate column names before passing DataFrame to Streamlit
+        # -----------------------------------------------------------------
+        display_df = display_df.loc[:, ~display_df.columns.duplicated()]
+
+        # Format status labels
+        if DISPLAY_COL_STATUS in display_df.columns:
+            display_df[DISPLAY_COL_STATUS] = display_df[
+                DISPLAY_COL_STATUS
+            ].apply(format_status_label)
+
+        st.dataframe(
+            display_df,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                DISPLAY_COL_ORDER_ID: st.column_config.TextColumn(
+                    "Order ID",
+                    width="small"
+                ),
+                DISPLAY_COL_PRODUCT: st.column_config.TextColumn(
+                    "Product",
+                    width="medium"
+                ),
+                DISPLAY_COL_CATEGORY: st.column_config.TextColumn(
+                    "Category",
+                    width="small"
+                ),
+                DISPLAY_COL_AMOUNT: st.column_config.NumberColumn(
+                    "Amount",
+                    format="₹%.2f",
+                    width="small"
+                ),
+                DISPLAY_COL_CITY: st.column_config.TextColumn(
+                    "City",
+                    width="small"
+                ),
+                DISPLAY_COL_STATUS: st.column_config.TextColumn(
+                    "Status",
+                    width="small"
+                ),
+            },
+        )
 
 # -----------------------------------------------------------------------------
 # Main Dashboard Body (Fragment for auto-refreshing without page flicker)
@@ -474,7 +507,7 @@ def render_dashboard_content():
                 st.write("#### Event-Time Window Distribution")
                 win_chart = (
                     alt.Chart(win_df)
-                    .mark_bar(cornerRadiusTop=4)
+                    .mark_bar(cornerRadius=4)
                     .encode(
                         x=alt.X("window_start:N", title="Window Start Time"),
                         y=alt.Y("order_count:Q", title="Orders"),

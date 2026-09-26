@@ -5,4 +5,6 @@ USER root
 # Removing manual JAR download to let --packages handle all transitive dependencies
 # RUN curl -L -o /opt/spark/jars/spark-sql-kafka-0-10_2.13-4.2.0.jar ...
 
+RUN pip install --no-cache-dir "pandas>=2.2.0" "pyarrow>=18.0.0"
+
 USER spark
